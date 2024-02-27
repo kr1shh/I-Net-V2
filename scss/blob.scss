@@ -1,0 +1,8 @@
+.blob{
+    position: absolute;
+    width: 600px;
+    opacity: .5;
+    filter: blur(50px);
+
+    z-index: -10;
+}

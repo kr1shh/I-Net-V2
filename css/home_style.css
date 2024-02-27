@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 section .hero_container {
+  position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 section .hero_container .cont_1 {
   display: flex;
@@ -41,8 +43,10 @@ section .hero_container .cont_1 .hero_text a button:hover {
   background-color: #FF1012;
 }
 section .hero_container .cont_1 .hero_img lottie-player {
+  position: relative;
   width: 100%;
   margin: 65px 90px 0 0;
+  z-index: -1;
 }
 section .hero_container .cont_2 {
   width: 100%;

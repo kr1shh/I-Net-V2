@@ -1,0 +1,7 @@
+.blob {
+  position: absolute;
+  width: 600px;
+  opacity: 0.5;
+  filter: blur(50px);
+  z-index: -10;
+}/*# sourceMappingURL=blob.css.map */

@@ -1,4 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border-radius: 70px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #dc0002;
+  border-radius: 64px;
+}
+
 body, html {
   margin: 0;
   padding: 0;
@@ -12,7 +26,10 @@ nav .nav_container {
   display: flex;
   justify-content: space-between;
   padding: 15px 0 15px 0;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  z-index: 100;
 }
 nav .nav_container .nav_logo {
   margin-left: 25px;
@@ -45,7 +62,7 @@ nav .nav_container .nav_log a {
   text-decoration: none;
 }
 nav .nav_container .nav_log a button {
-  padding: 12px 30px 12px 30px;
+  padding: 12px 30px;
   border-radius: 50px;
   color: #FF1012;
   border: 0px;
