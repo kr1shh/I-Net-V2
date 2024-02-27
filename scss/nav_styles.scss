@@ -50,6 +50,10 @@ nav .nav_container {
         align-items: center;
         gap: 15px;
 
+        @media(max-width:1024px){
+            display: none;
+        }
+
         li a {
             color: $primary;
             text-decoration: none;
@@ -67,6 +71,9 @@ nav .nav_container {
         align-items: center;
         gap: 10px;
         margin-right: 25px;
+        @media(max-width:1024px){
+            display: none;
+        }
 
         // Styles for each link within the login section
         a {
@@ -106,6 +113,38 @@ nav .nav_container {
                     color: $white;
                 }
             }
+        }
+    }
+
+    .nav_ham{
+        display: none;
+        @media (max-width:1024px){
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            justify-content: space-evenly;
+            // gap: 8px;
+            margin-right: 20px;
+        }
+
+        .ham_stroke{
+            background-color: $monochrome;
+            border-radius: 50px;
+        }
+
+        .ham_stroke:nth-child(1){
+            width: 15px;
+            height: 4px;
+        }
+        
+        .ham_stroke:nth-child(2){
+            width: 27px;
+            height: 4px;
+        }
+        
+        .ham_stroke:nth-child(3){
+            width: 45px;
+            height: 4px;
         }
     }
 }
