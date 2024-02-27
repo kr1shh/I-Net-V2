@@ -14,10 +14,33 @@ section .hero_container .cont_1 {
   justify-content: space-around;
   align-items: center;
 }
+@media (max-width: 768px) {
+  section .hero_container .cont_1 {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+section .hero_container .cont_1 .hero_text {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  section .hero_container .cont_1 .hero_text {
+    align-items: center;
+    justify-content: center;
+    order: 1;
+  }
+}
 section .hero_container .cont_1 .hero_text p {
   width: 460px;
   font-size: 80px;
   color: #FF1012;
+}
+@media (max-width: 768px) {
+  section .hero_container .cont_1 .hero_text p {
+    font-size: 10px;
+    text-align: center;
+  }
 }
 section .hero_container .cont_1 .hero_text p span {
   font-weight: 900;
@@ -43,11 +66,21 @@ section .hero_container .cont_1 .hero_text a button {
 section .hero_container .cont_1 .hero_text a button:hover {
   background-color: #FF1012;
 }
+@media (max-width: 768px) {
+  section .hero_container .cont_1 .hero_img {
+    width: 50%;
+  }
+}
 section .hero_container .cont_1 .hero_img lottie-player {
   position: relative;
   width: 100%;
   margin: 65px 90px 0 0;
   z-index: -1;
+}
+@media (max-width: 768px) {
+  section .hero_container .cont_1 .hero_img lottie-player {
+    margin: 0;
+  }
 }
 section .hero_container .cont_2 {
   width: 100%;

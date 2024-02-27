@@ -4,4 +4,9 @@
   opacity: 0.5;
   filter: blur(50px);
   z-index: -10;
+}
+@media (max-width: 768px) {
+  .blob {
+    display: none;
+  }
 }/*# sourceMappingURL=blob.css.map */
