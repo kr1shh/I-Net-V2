@@ -1,29 +1,95 @@
+// Import your variables file
 @import './variables.scss';
 
-section .hero_container{
+// Styles for the hero container section
+section .hero_container {
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
 
-    .cont_1{
+    // Styles for the container 1 within the hero section
+    .cont_1 {
         display: flex;
+        height: 85%;
+        justify-content: space-around;
+        align-items: center;
 
-        .hero_text p{
-            width: 460px;
-            font-size: 80px;
-            color: $primary;
+        // Styles for the hero text
+        .hero_text {
+            p {
+                width: 460px;
+                font-size: 80px;
+                color: $primary;
 
-            span{
-                font-weight: 900;
+                // Styles for the span with gradient background
+                span {
+                    font-weight: 900;
+                    background: linear-gradient(to bottom right, #000000 0%, #DC0002 63%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    animation: gradientAnimation 5s infinite alternate;
+                    display: inline-block;
+                }
+            }
 
+            // Styles for the link within hero text
+            a {
+                text-decoration: none;
 
-                background: #000000;
-                background: linear-gradient(to bottom right, #000000 0%, #DC0002 63%);
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+                // Styles for the button within the link
+                button {
+                    font-family: 'Montserrat';
+                    padding: $btn_padding;
+                    border-radius: 50px;
+                    border: none;
+                    cursor: pointer;
+                    background-color: $monochrome;
+                    color: $white;
+                    transition: all .3s;
 
+                    // Hover styles for the button
+                    &:hover {
+                        background-color: $primary;
+                    }
+                }
+            }
+        }
+
+        // Styles for the hero image
+        .hero_img {
+            lottie-player {
+                width: 100%;
+                margin: 65px 90px 0 0;
+            }
+        }
+    }
+
+    .cont_2{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .down_arrow{
+            .round{
+                width: 40px;
+                height: 40px;
+                border-radius: 100px;
+                border: 1px solid $monochrome;
+                display: grid;
+                place-items: center;
             }
         }
     }
 }
+
+@keyframes gradientAnimation {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+

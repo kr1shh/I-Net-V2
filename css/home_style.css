@@ -7,6 +7,9 @@ section .hero_container {
 }
 section .hero_container .cont_1 {
   display: flex;
+  height: 85%;
+  justify-content: space-around;
+  align-items: center;
 }
 section .hero_container .cont_1 .hero_text p {
   width: 460px;
@@ -15,8 +18,52 @@ section .hero_container .cont_1 .hero_text p {
 }
 section .hero_container .cont_1 .hero_text p span {
   font-weight: 900;
-  background: #000000;
   background: linear-gradient(to bottom right, #000000 0%, #DC0002 63%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 5s infinite alternate;
+  display: inline-block;
+}
+section .hero_container .cont_1 .hero_text a {
+  text-decoration: none;
+}
+section .hero_container .cont_1 .hero_text a button {
+  font-family: "Montserrat";
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  background-color: #DC0002;
+  color: white;
+  transition: all 0.3s;
+}
+section .hero_container .cont_1 .hero_text a button:hover {
+  background-color: #FF1012;
+}
+section .hero_container .cont_1 .hero_img lottie-player {
+  width: 100%;
+  margin: 65px 90px 0 0;
+}
+section .hero_container .cont_2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .hero_container .cont_2 .down_arrow .round {
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid #DC0002;
+  display: grid;
+  place-items: center;
+}
+
+@keyframes gradientAnimation {
+  from {
+    background-position: 0% 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
 }/*# sourceMappingURL=home_style.css.map */

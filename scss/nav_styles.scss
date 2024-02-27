@@ -1,85 +1,95 @@
+// Import your variables file
 @import 'variables';
 
-body,html{
+// Reset default margin, padding, and set the font family for the entire document
+body, html {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
 }
 
-nav .nav_container{
+// Styles for the navigation container
+nav .nav_container {
+    position: fixed;
+    top: 0;
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 15px 0 15px 0;
     background-color: white;
 
-    .nav_logo{
+    // Styles for the navigation logo
+    .nav_logo {
         margin-left: 25px;
-        img{
+        img {
             width: 175px;
         }
     }
 
-    .nav_links ul{
+    // Styles for the navigation links
+    .nav_links ul {
         list-style: none;
         display: flex;
         justify-content: center;
         align-items: center;
         gap: 15px;
 
-        li a{
+        li a {
             color: $primary;
             text-decoration: none;
+            font-weight: 400;
 
-            &:hover{
+            &:hover {
                 font-weight: 800;
             }
         }
     }
 
-    .nav_log{
+    // Styles for the navigation login section
+    .nav_log {
         display: flex;
         align-items: center;
         gap: 10px;
         margin-right: 25px;
 
-        a{
-           text-decoration: none;
-   
-           button{
-               padding: $btn_padding; 
-               border-radius: 50px;
-               color: $primary;
-               border: 0px;
-               font-family: 'Montserrat';
-           }
+        // Styles for each link within the login section
+        a {
+            text-decoration: none;
 
-           &:nth-child(1) button{
-            background-color: transparent;
-            color: $monochrome;
-            border: 1px solid $monochrome;
-            transition: all .3s;
+            // Styles for each button within the link
+            button {
+                padding: $btn_padding;
+                border-radius: 50px;
+                color: $primary;
+                border: 0px;
+                font-family: 'Montserrat';
+            }
 
-            &:hover{
+            // Styles for the first button in the login section
+            &:nth-child(1) button {
+                background-color: transparent;
+                color: $monochrome;
+                border: 1px solid $monochrome;
+                transition: all .3s;
+
+                &:hover {
+                    background-color: $monochrome;
+                    color: $white;
+                }
+            }
+
+            // Styles for the second button in the login section
+            &:nth-child(2) button {
                 background-color: $monochrome;
                 color: $white;
+
+                transition: all .3s;
+
+                &:hover {
+                    background-color: $primary;
+                    color: $white;
+                }
             }
-           }
-
-           &:nth-child(2) button{
-            background-color: $monochrome;
-            color: $white;
-
-            transition: all .3s;
-
-            &:hover{
-                background-color: $primary;
-                color: $white;
-            }
-           }
-       }
+        }
     }
-
-
-
 }

@@ -6,6 +6,8 @@ body, html {
 }
 
 nav .nav_container {
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -28,6 +30,7 @@ nav .nav_container .nav_links ul {
 nav .nav_container .nav_links ul li a {
   color: #FF1012;
   text-decoration: none;
+  font-weight: 400;
 }
 nav .nav_container .nav_links ul li a:hover {
   font-weight: 800;
