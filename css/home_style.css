@@ -28,6 +28,7 @@ section .hero_container .cont_1 .hero_text {
   section .hero_container .cont_1 .hero_text {
     align-items: center;
     justify-content: center;
+    gap: 15px;
     order: 1;
   }
 }
@@ -35,10 +36,12 @@ section .hero_container .cont_1 .hero_text p {
   width: 460px;
   font-size: 80px;
   color: #FF1012;
+  margin: 0px;
 }
 @media (max-width: 768px) {
   section .hero_container .cont_1 .hero_text p {
-    font-size: 10px;
+    width: 315px;
+    font-size: 45px;
     text-align: center;
   }
 }
@@ -68,7 +71,7 @@ section .hero_container .cont_1 .hero_text a button:hover {
 }
 @media (max-width: 768px) {
   section .hero_container .cont_1 .hero_img {
-    width: 50%;
+    width: 100%;
   }
 }
 section .hero_container .cont_1 .hero_img lottie-player {

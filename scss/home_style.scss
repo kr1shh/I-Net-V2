@@ -32,14 +32,17 @@ section .hero_container {
             @media( max-width:768px ){
                 align-items: center;
                 justify-content: center;
+                gap: 15px;
                 order: 1;
             }
             p {
                 width: 460px;
                 font-size: 80px;
                 color: $primary;
+                margin: 0px;
                 @media( max-width:768px ){
-                    font-size: 10px;
+                    width: 315px;
+                    font-size: 45px;
                     text-align: center;
                 }
 
@@ -80,7 +83,7 @@ section .hero_container {
         // Styles for the hero image
         .hero_img {
             @media( max-width:768px ){
-                width: 50%;
+                width: 100%;
                 
             }
             lottie-player {
