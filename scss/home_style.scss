@@ -72,6 +72,10 @@ section .hero_container {
                     color: $white;
                     transition: all .3s;
 
+                    @media(max-width:640px){
+                        padding: $mob_btn_padding;
+                    }
+
                     // Hover styles for the button
                     &:hover {
                         background-color: $primary;
