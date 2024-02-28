@@ -5,8 +5,29 @@
   filter: blur(50px);
   z-index: -10;
 }
-@media (max-width: 768px) {
+@media (max-width: 640px) {
   .blob {
     display: none;
+  }
+}
+
+.blob.one {
+  top: 65%;
+  left: -15%;
+}
+@media (max-width: 768px) {
+  .blob.one {
+    top: 50%;
+    left: -32%;
+  }
+}
+
+.blob.two {
+  top: -3%;
+  left: -32%;
+}
+@media (max-width: 768px) {
+  .blob.two {
+    top: -61%;
   }
 }/*# sourceMappingURL=blob.css.map */
