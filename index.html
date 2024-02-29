@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="./css/nav_styles.css">
     <link rel="stylesheet" href="./css/home_style.css">
     <link rel="stylesheet" href="./css/blob.css">
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
     <title>Home - I Net Infotech</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
@@ -125,8 +127,39 @@
 
         </div>
     </section>
-    
 
+    <section>
+        <div class="place_title">
+            <p>
+                <span>100%</span> Placements for 
+                our <span>students.</span>
+            </p>
+            <span>is our mission</span>
+        </div>
+        <div class="place_caro">
+            <div class="owl-carousel owl-theme">
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+                <div> Your Content </div>
+              </div>
+        </div>
+        <a href="#">
+            <button>View More</button>
+        </a>
+    </section>
+    
+    <script src="/node_modules/jquery/dist/jquery.js"></script>
+    <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script src="./js/mob_nav.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel();
+        });
+    </script>
 </body>
 </html>
