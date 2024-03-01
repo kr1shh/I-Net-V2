@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/home_style.css">
     <link rel="stylesheet" href="./css/blob.css">
     <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.carousel.min.css" />
-    <link rel="stylesheet" href="/bower_components/owl.carousel/dist/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="/node_modules/owl.carousel/dist/assets/owl.theme.default.css" />
     <title>Home - I Net Infotech</title>
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
@@ -90,7 +90,7 @@
 
 
 
-    <section>
+    <section id="hero">
         <div class="hero_container">
 
             <div class="blob" style="top: 4%; left: 73%;">
@@ -128,7 +128,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="second_section">
         <div class="place_title">
             <p>
                 <span>100%</span> Placements for 
@@ -136,20 +136,145 @@
             </p>
             <span>is our mission</span>
         </div>
+
         <div class="place_caro">
             <div class="owl-carousel owl-theme">
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
-                <div> Your Content </div>
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
+
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
+
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
+
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
+
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
+
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
+
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
+
+                <div class="place_std">
+                    <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                    <div class="place_details">
+                        <p>
+                            Name <br/>
+                            <span>Designation</span>
+                        </p>
+                        <p>
+                            Qualification <br/>
+                            <span>Details</span>
+                        </p>
+                    </div>
+                    <div class="place_overlay">
+                    </div>
+                </div>
               </div>
         </div>
-        <a href="#">
-            <button>View More</button>
-        </a>
+
+        <div class="place_btn">
+            <a href="#">
+                <button>View More</button>
+            </a>
+        </div>
+
     </section>
     
     <script src="/node_modules/jquery/dist/jquery.js"></script>
@@ -158,7 +283,26 @@
 
     <script>
         $(document).ready(function(){
-            $('.owl-carousel').owlCarousel();
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                paginationSpeed:1000,
+                autoPlay:true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            });
         });
     </script>
 </body>

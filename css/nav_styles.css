@@ -57,6 +57,9 @@ nav .nav_container .nav_links ul li a {
 nav .nav_container .nav_links ul li a:hover {
   font-weight: 800;
 }
+nav .nav_container .nav_links ul li a:active {
+  font-weight: 800;
+}
 nav .nav_container .nav_log {
   display: flex;
   align-items: center;
