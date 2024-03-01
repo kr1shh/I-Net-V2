@@ -164,6 +164,11 @@ section .place_title{
         text-align: center;
         font-weight: 500;
 
+        @media (max-width:640px){
+            width:340px;
+            font-size: 44px;
+        }
+
         span{
             font-weight: 900;
             background: linear-gradient(to bottom right, #000000 0%, #DC0002 63%);
@@ -175,6 +180,10 @@ section .place_title{
     }
     span{
         font-weight: 500;
+
+        @media(max-width:640px){
+            font-weight: 600;
+        }
     }
 }
 
