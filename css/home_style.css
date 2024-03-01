@@ -143,8 +143,8 @@ section .place_title p {
 }
 @media (max-width: 640px) {
   section .place_title p {
-    width: 340px;
-    font-size: 44px;
+    width: 260px;
+    font-size: 33px;
   }
 }
 section .place_title p span {
@@ -158,11 +158,6 @@ section .place_title p span {
 section .place_title span {
   font-weight: 500;
 }
-@media (max-width: 640px) {
-  section .place_title span {
-    font-weight: 600;
-  }
-}
 
 .place_caro .owl-carousel .place_std {
   position: relative;
@@ -175,6 +170,12 @@ section .place_title span {
   border-radius: 35px;
   background-color: white;
   overflow: hidden;
+}
+@media (max-width: 640px) {
+  .place_caro .owl-carousel .place_std {
+    width: 163px;
+    height: 221px;
+  }
 }
 .place_caro .owl-carousel .place_std img {
   width: 110%;
@@ -192,6 +193,11 @@ section .place_title span {
   color: white;
   text-align: center;
   font-size: 18px;
+}
+@media (max-width: 640px) {
+  .place_caro .owl-carousel .place_std .place_details p {
+    font-size: 12px;
+  }
 }
 .place_caro .owl-carousel .place_std .place_details p span {
   font-weight: 200;

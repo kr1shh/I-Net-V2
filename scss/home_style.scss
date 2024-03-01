@@ -165,8 +165,8 @@ section .place_title{
         font-weight: 500;
 
         @media (max-width:640px){
-            width:340px;
-            font-size: 44px;
+            width:260px;
+            font-size: 33px;
         }
 
         span{
@@ -181,9 +181,6 @@ section .place_title{
     span{
         font-weight: 500;
 
-        @media(max-width:640px){
-            font-weight: 600;
-        }
     }
 }
 
@@ -200,6 +197,11 @@ section .place_title{
         border-radius: 35px;
         background-color: $white;
         overflow: hidden;
+
+        @media (max-width:640px){
+            width: 163px;
+            height: 221px;
+        }
 
         img{
             width: 110%;
@@ -223,6 +225,10 @@ section .place_title{
                 color: $white;
                 text-align: center;
                 font-size: 18px;
+
+                @media ( max-width:640px ){
+                    font-size: 12px;
+                }
 
                 span{
                     font-weight: 200;
