@@ -133,13 +133,22 @@ section .place_title {
   justify-content: center;
   margin: 40px 0;
 }
+@media (max-width: 640px) {
+  section .place_title {
+    margin: 40px 15px;
+  }
+}
 section .place_title p {
   margin: 0;
   color: #DC0002;
   font-size: 40px;
-  width: 450px;
   text-align: center;
   font-weight: 500;
+}
+@media (max-width: 640px) {
+  section .place_title p {
+    font-size: 35px;
+  }
 }
 section .place_title p span {
   font-weight: 900;
@@ -151,6 +160,12 @@ section .place_title p span {
 }
 section .place_title span {
   font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .place_caro {
+    display: none;
+  }
 }
 
 .place_caro .owl-carousel .place_std {
@@ -171,6 +186,11 @@ section .place_title span {
 }
 .place_caro .owl-carousel .place_std:hover img {
   transform: scale(1.1);
+}
+@media (hover: hover) and (pointer: fine) {
+  .place_caro .owl-carousel .place_std:hover img {
+    transform: scale(1);
+  }
 }
 .place_caro .owl-carousel .place_std .place_details {
   position: absolute;
@@ -194,8 +214,84 @@ section .place_title span {
   transform: scaleY(1.6);
   transition: transform 0.3s;
 }
+@media (max-width: 640px) {
+  .place_caro .owl-carousel .place_std .place_overlay {
+    transform: scaleY(1);
+  }
+}
 .place_caro .owl-carousel .place_std:hover .place_overlay {
   transform: scaleY(1);
+}
+
+section .mob_caro {
+  width: 100%;
+  display: none;
+}
+@media (max-width: 640px) {
+  section .mob_caro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+section .mob_caro .swiper {
+  width: 100%;
+  height: 400px;
+}
+section .mob_caro .swiper .place_std {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 350px;
+  border-radius: 35px;
+  background-color: white;
+  overflow: hidden;
+  margin: auto;
+}
+section .mob_caro .swiper .place_std img {
+  width: 110%;
+  transition: transform 0.3s;
+}
+section .mob_caro .swiper .place_std .place_details {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+section .mob_caro .swiper .place_std .place_details p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+section .mob_caro .swiper .place_std .place_details p span {
+  font-weight: 200;
+}
+section .mob_caro .swiper .place_std .place_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(220, 0, 2);
+  background: linear-gradient(0deg, rgb(220, 0, 2) 0%, rgba(220, 0, 2, 0) 60%);
+  transform: scaleY(1.6);
+  transition: transform 0.3s;
+}
+@media (max-width: 640px) {
+  section .mob_caro .swiper .place_std .place_overlay {
+    transform: scaleY(1);
+  }
+}
+section .mob_caro .swiper .place_std:hover .place_overlay {
+  transform: scaleY(1);
+}
+section .mob_caro .swiper .swiper-pagination-bullet {
+  background-color: #FF1012;
+  opacity: 0.5;
+}
+section .mob_caro .swiper .swiper-pagination-bullet-active {
+  background-color: #FF1012;
+  opacity: 1;
 }
 
 section .place_btn {

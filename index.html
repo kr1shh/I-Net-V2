@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/nav_styles.css">
     <link rel="stylesheet" href="./css/home_style.css">
     <link rel="stylesheet" href="./css/blob.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="./resource/owl.carousel/dist/assets/owl.carousel.css" />
     <link rel="stylesheet" href="./resource/owl.carousel/dist/assets/owl.theme.default.css" />
     <title>Home - I Net Infotech</title>
@@ -131,7 +132,7 @@
     <section id="second_section">
         <div class="place_title">
             <p>
-                <span>100%</span> Placements for 
+                <span>100%</span> Placements for </br>
                 our <span>students.</span>
             </p>
             <span>is our mission</span>
@@ -269,6 +270,74 @@
               </div>
         </div>
 
+        <div class="mob_caro">
+        
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <div class="place_std">
+                            <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                            <div class="place_details">
+                                <p>
+                                    Name <br/>
+                                    <span>Designation</span>
+                                </p>
+                                <p>
+                                    Qualification <br/>
+                                    <span>Details</span>
+                                </p>
+                            </div>
+                            <div class="place_overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="place_std">
+                            <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                            <div class="place_details">
+                                <p>
+                                    Name <br/>
+                                    <span>Designation</span>
+                                </p>
+                                <p>
+                                    Qualification <br/>
+                                    <span>Details</span>
+                                </p>
+                            </div>
+                            <div class="place_overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="place_std">
+                            <img src="./assets/images/std/22.png" alt="Student" loading="lazy">
+                            <div class="place_details">
+                                <p>
+                                    Name <br/>
+                                    <span>Designation</span>
+                                </p>
+                                <p>
+                                    Qualification <br/>
+                                    <span>Details</span>
+                                </p>
+                            </div>
+                            <div class="place_overlay">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        
+        </div>
+
         <div class="place_btn">
             <a href="#">
                 <button>View More</button>
@@ -277,32 +346,56 @@
 
     </section>
     
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="./resource/jquery/dist/jquery.js"></script>
     <script src="./resource/owl.carousel/dist/owl.carousel.js"></script>
     <script src="./js/mob_nav.js"></script>
 
     <script>
-        $(document).ready(function(){
+
+
+        //Owl Carousel For desktop and Tab
+
+        $(document).ready(function () {
             $('.owl-carousel').owlCarousel({
-                loop:true,
-                margin:10,
-                paginationSpeed:1000,
-                autoPlay:true,
-                autoplay:true,
-                autoplayTimeout:2000,
-                autoplayHoverPause:true,
-                responsive:{
-                    0:{
-                        items:1
+                loop: true,
+                margin: 10,
+                paginationSpeed: 1000,
+                autoPlay: true,
+                autoplay: true,
+                autoplayTimeout: 3000,
+                autoplayHoverPause: true,
+                responsive: {
+                    0: {
+                        items: 1
                     },
-                    600:{
-                        items:3
+                    600: {
+                        items: 3
                     },
-                    1000:{
-                        items:5
+                    1000: {
+                        items: 5
                     }
                 }
             });
+        });
+
+
+        //Swiper JS for mobile
+
+        const swiper = new Swiper('.swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            centerSlide: true,
+            slidesPerView: 1,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
         });
     </script>
 </body>
