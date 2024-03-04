@@ -64,3 +64,16 @@ const c_mob_swiper = new Swiper(".c-mob-Swiper", {
     el: ".swiper-pagination",
   },
 });
+
+
+const offer_mob_swiper = new Swiper(".mob_offer_tile", {
+    direction: "horizontal",
+    slidesPerView: 1,
+    loop: true,
+    autoplay: {
+      delay: 3000,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });

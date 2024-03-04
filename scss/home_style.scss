@@ -543,3 +543,164 @@ section .place_btn {
         }
     }
 }
+
+
+
+#forth_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+
+    .offer_title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+        p{
+            color: $monochrome;
+            font-size: 40px;
+            font-weight: 600;
+
+            @media(max-width:640px){
+                font-size: 30px;
+            }
+        }
+    }
+
+    .offer_tile{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $white;
+        gap: 30px;
+
+        @media(max-width:640px){
+            display: none;
+        }
+
+        @media(max-width:1024px){
+            gap: 10px;
+        }
+
+        .offer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: $monochrome;
+            width:234px;
+            height: 326px;
+            border-radius: 35px;
+            transition: transform .3s;
+
+            @media(max-width:1024px){
+                width: 155px;
+                height: 237px;
+            }
+
+            .offer_icon{
+                width: 90px;
+
+                @media(max-width:1024px){
+                    width: 50px;
+                }
+                img{
+                    width: 100%;
+                }
+            }
+
+            .offer_title_sec{
+                p{
+                    margin: 10px 0;
+                    color: $white;
+                    text-align: center;
+                    font-size: 25px;
+                    font-weight: 500;
+
+                    @media(max-width:1024px){
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .offer_des{
+                p{
+                    margin: 0 10px;
+                    text-align: center;
+                    margin: 5px 10px;
+
+                    @media(max-width:1024px){
+                        font-size: 10px;
+                    }
+                }
+            }
+
+            &:hover{
+                transform: translateY(-10px);
+            }
+
+        }
+    }
+
+    .swiper{
+        width: 100%;
+        height:395px;
+        .swiper-pagination-bullet{
+            background-color: $primary;
+            opacity: .5;
+        }
+        .swiper-pagination-bullet-active{
+            background-color: $primary;
+            opacity: 1;
+        }
+    }
+
+    .mob_offer_tile{
+        display: none;
+        @media(max-width:640px){
+            display: block;
+        }
+        .offer{
+            background-color: $monochrome;
+            width: 260px;
+            height: 330px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border-radius: 35px;
+            color: $white;
+            margin-top: 20px;
+
+
+            .offer_icon{
+                width: 90px;
+                img{
+                    width: 100%;
+                }
+            }
+
+            .offer_title_sec{
+                p{
+                    text-align: center;
+                    font-size: 30px;
+                    margin: 10px 0;
+                    font-weight: 600;
+                }
+            }
+
+            .offer_des{
+                p{
+                    text-align: center;
+                    margin: 0 30px;
+                }
+            }
+        }
+    }
+}
