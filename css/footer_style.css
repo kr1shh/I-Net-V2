@@ -7,7 +7,7 @@ footer .footer_container {
   flex-direction: column;
   align-items: center;
   background-color: #DC0002;
-  margin: 230px 0 0 0;
+  margin: 200px 0 0 0;
 }
 footer .footer_container .join {
   position: absolute;
@@ -25,12 +25,36 @@ footer .footer_container .join {
   -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
   -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
 }
+@media (max-width: 768px) {
+  footer .footer_container .join {
+    width: 630px;
+    height: 150px;
+  }
+}
+@media (max-width: 640px) {
+  footer .footer_container .join {
+    flex-direction: column;
+    width: 320px;
+    height: auto;
+    padding: 20px 0;
+    justify-content: center;
+  }
+}
 footer .footer_container .join p {
   font-size: 20px;
   font-weight: 600;
 }
 footer .footer_container .join .j-input {
   position: relative;
+}
+@media (max-width: 640px) {
+  footer .footer_container .join .j-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+  }
 }
 footer .footer_container .join .j-input input {
   font-family: "Montserrat";
@@ -40,12 +64,28 @@ footer .footer_container .join .j-input input {
   border: none;
   background-color: #FFE3E3;
   padding: 0 30px;
+  color: #FF1012;
+}
+footer .footer_container .join .j-input input:focus {
+  outline: none;
+  border: 1px solid #DC0002;
 }
 footer .footer_container .join .j-input input::-moz-placeholder {
   color: #DC0002;
 }
 footer .footer_container .join .j-input input::placeholder {
   color: #DC0002;
+}
+@media (max-width: 768px) {
+  footer .footer_container .join .j-input input {
+    width: 305px;
+  }
+}
+@media (max-width: 640px) {
+  footer .footer_container .join .j-input input {
+    width: 200px;
+    height: 50px;
+  }
 }
 footer .footer_container .join .j-input button {
   position: absolute;
@@ -63,4 +103,11 @@ footer .footer_container .join .j-input button {
 }
 footer .footer_container .join .j-input button:hover {
   background-color: #FF1012;
+}
+@media (max-width: 640px) {
+  footer .footer_container .join .j-input button {
+    position: static;
+    transform: translateY(0);
+    padding: 12px 30px;
+  }
 }/*# sourceMappingURL=footer_style.css.map */

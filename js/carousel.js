@@ -93,7 +93,7 @@ const offer_mob_swiper = new Swiper(".mob_offer_tile", {
           slidesPerView: 1,
           spaceBetween: 20,
         },
-        768: {
+        769: {
           slidesPerView: 3,
           spaceBetween: 40,
         },
