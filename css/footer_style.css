@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 footer .footer_container {
   width: 100%;
-  height: 600px;
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
   background-color: #DC0002;
   margin: 200px 0 0 0;
+  padding: 100px 0 20px 0;
 }
 footer .footer_container .join {
   position: absolute;
@@ -110,4 +110,7 @@ footer .footer_container .join .j-input button:hover {
     transform: translateY(0);
     padding: 12px 30px;
   }
+}
+footer .footer_container .footer_copy p {
+  color: white;
 }/*# sourceMappingURL=footer_style.css.map */
