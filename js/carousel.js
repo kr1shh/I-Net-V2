@@ -52,3 +52,12 @@ const c_swiper = new Swiper(".c-Swiper", {
       dynamicBullets:false
     },
   });
+
+  const c_mob_swiper = new Swiper(".c-mob-Swiper", {
+    direction:'horizontal',
+    slidesPerView:1,
+    pagination: {
+      el: ".swiper-pagination", 
+      dynamicBullets:false
+    },
+  });

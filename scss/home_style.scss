@@ -511,4 +511,29 @@ section .place_btn {
             opacity: 1;
         }
     }
+
+    .c-mob-Swiper{
+        display: none;
+        @media(max-width:640px){
+            display: flex;
+            height: 640px;
+        }
+
+        .course_tile{
+            width: 320px;
+            height: auto;
+            // background-color: yellow;
+            .course{
+                width: 153px;
+                height: 256px;
+            }
+
+            ._course_icon {
+                width: 75px;
+            }
+            ._course_btn a button {
+                padding: $mob_btn_padding;
+            }
+        }
+    }
 }
