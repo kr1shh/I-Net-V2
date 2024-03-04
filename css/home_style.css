@@ -604,13 +604,28 @@ section .place_btn a:hover button {
   font-weight: 600;
   text-align: center;
 }
+@media (max-width: 640px) {
+  #fifth_section .testimo_title p {
+    font-size: 30px;
+  }
+}
 #fifth_section .testimo_title span {
   font-weight: 500;
   text-align: center;
 }
+@media (max-width: 640px) {
+  #fifth_section .testimo_title span {
+    font-size: 10px;
+  }
+}
 #fifth_section .swiper {
   width: 100%;
   height: 400px;
+}
+@media (max-width: 640px) {
+  #fifth_section .swiper {
+    height: 360px;
+  }
 }
 #fifth_section .swiper .swiper-pagination-bullet {
   background-color: #FF1012;
@@ -638,6 +653,29 @@ section .place_btn a:hover button {
   -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
   -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
 }
+@media (max-width: 640px) {
+  #fifth_section .testimo_tile .testimo_card {
+    width: 300px;
+    height: 180px;
+    margin: 100px auto auto auto;
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+  }
+}
+@media (max-width: 768px) {
+  #fifth_section .testimo_tile .testimo_card {
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  #fifth_section .testimo_tile .testimo_card {
+    width: 250px;
+    height: 150px;
+  }
+}
 #fifth_section .testimo_tile .testimo_icon {
   position: absolute;
   width: 120px;
@@ -645,6 +683,11 @@ section .place_btn a:hover button {
   overflow: hidden;
   border-radius: 100%;
   top: -75px;
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  #fifth_section .testimo_tile .testimo_icon {
+    top: -90px;
+  }
 }
 #fifth_section .testimo_tile .testimo_icon img {
   width: 100%;
@@ -656,6 +699,17 @@ section .place_btn a:hover button {
   color: #DC0002;
 }
 #fifth_section .testimo_tile .testimo_des p span {
+  font-family: "Montserrat";
   font-size: 50px;
   font-weight: 500;
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  #fifth_section .testimo_tile .testimo_des p span {
+    font-size: 30px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1200px) {
+  #fifth_section .testimo_tile .testimo_des p {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=home_style.css.map */
