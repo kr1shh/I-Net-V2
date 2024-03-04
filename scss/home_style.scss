@@ -347,11 +347,13 @@ section .mob_caro {
             }
 
         }
-        .swiper-pagination-bullet{
+
+        .swiper-pagination-bullet {
             background-color: $primary;
             opacity: .5;
         }
-        .swiper-pagination-bullet-active{
+
+        .swiper-pagination-bullet-active {
             background-color: $primary;
             opacity: 1;
         }
@@ -389,20 +391,20 @@ section .place_btn {
 //section 3rd
 
 
-#third_section{
+#third_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 
-    .course_title{
-        p{
+
+    .course_title {
+        p {
             font-size: 40px;
             font-weight: 600;
             color: $monochrome;
 
-            span{
+            span {
                 font-weight: 900;
                 background: linear-gradient(to bottom right, #000000 0%, #DC0002 63%);
                 -webkit-background-clip: text;
@@ -414,7 +416,7 @@ section .place_btn {
     }
 
 
-    .course_tile{
+    .course_tile {
         width: 802px;
         height: 680px;
         gap: 13px;
@@ -425,11 +427,11 @@ section .place_btn {
         color: $white;
         margin: auto;
 
-        @media(max-width:768px){
-            width:650px
+        @media(max-width:768px) {
+            width: 650px
         }
 
-        .course{
+        .course {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -439,20 +441,21 @@ section .place_btn {
             background-color: $monochrome;
             border-radius: 35px;
 
-            @media(max-width:768px){
+            @media(max-width:768px) {
                 width: 180px;
                 height: 293px;
             }
 
-            ._course_icon{
-                width:120px;
-                img{
+            ._course_icon {
+                width: 120px;
+
+                img {
                     width: 100%;
                 }
             }
 
-            ._course_title{
-                p{
+            ._course_title {
+                p {
                     font-weight: 600;
                     text-align: center;
                     font-size: 20px;
@@ -460,17 +463,17 @@ section .place_btn {
                 }
             }
 
-            ._course_dur{
-                p{
+            ._course_dur {
+                p {
                     font-size: 13px;
                 }
             }
 
-            ._course_btn{
-                a{
+            ._course_btn {
+                a {
                     text-decoration: none;
 
-                    button{
+                    button {
                         color: $white;
                         font-family: 'Montserrat';
                         padding: $btn_padding;
@@ -480,56 +483,59 @@ section .place_btn {
                         transition: all .3s;
                         cursor: pointer;
 
-                        &:hover{
+                        &:hover {
                             background-color: $white;
                             color: $monochrome;
                         }
                     }
                 }
-                
+
             }
 
         }
     }
 
-    .c-Swiper{
-        @media(max-width: 640px){
+    .c-Swiper {
+        @media(max-width: 640px) {
             display: none;
         }
     }
 
-    .swiper{
+    .swiper {
         width: 100%;
         height: 725px;
 
-        .swiper-pagination-bullet{
+        .swiper-pagination-bullet {
             background-color: $primary;
             opacity: .5;
         }
-        .swiper-pagination-bullet-active{
+
+        .swiper-pagination-bullet-active {
             background-color: $primary;
             opacity: 1;
         }
     }
 
-    .swiper.c-mob-Swiper{
+    .swiper.c-mob-Swiper {
         width: 100%;
         height: 570px;
         // background-color: yellow;
     }
 
-    .c-mob-Swiper{
+    .c-mob-Swiper {
         display: none;
-        @media(max-width:640px){
+
+        @media(max-width:640px) {
             display: flex;
             height: 640px;
         }
 
-        .course_tile{
+        .course_tile {
             width: 320px;
             height: auto;
+
             // background-color: yellow;
-            .course{
+            .course {
                 width: 153px;
                 height: 256px;
             }
@@ -537,6 +543,7 @@ section .place_btn {
             ._course_icon {
                 width: 75px;
             }
+
             ._course_btn a button {
                 padding: $mob_btn_padding;
             }
@@ -546,32 +553,32 @@ section .place_btn {
 
 
 
-#forth_section{
+#forth_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 40px 0px;
 
-    .offer_title{
+    .offer_title {
         display: flex;
         align-items: center;
         justify-content: center;
 
 
 
-        p{
+        p {
             color: $monochrome;
             font-size: 40px;
             font-weight: 600;
 
-            @media(max-width:640px){
+            @media(max-width:640px) {
                 font-size: 30px;
             }
         }
     }
 
-    .offer_tile{
+    .offer_tile {
         width: 100%;
         display: flex;
         align-items: center;
@@ -579,93 +586,98 @@ section .place_btn {
         color: $white;
         gap: 30px;
 
-        @media(max-width:640px){
+        @media(max-width:640px) {
             display: none;
         }
 
-        @media(max-width:1024px){
+        @media(max-width:1024px) {
             gap: 10px;
         }
 
-        .offer{
+        .offer {
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             background-color: $monochrome;
-            width:234px;
+            width: 234px;
             height: 326px;
             border-radius: 35px;
             transition: transform .3s;
 
-            @media(max-width:1024px){
+            @media(max-width:1024px) {
                 width: 155px;
                 height: 237px;
             }
 
-            .offer_icon{
+            .offer_icon {
                 width: 90px;
 
-                @media(max-width:1024px){
+                @media(max-width:1024px) {
                     width: 50px;
                 }
-                img{
+
+                img {
                     width: 100%;
                 }
             }
 
-            .offer_title_sec{
-                p{
+            .offer_title_sec {
+                p {
                     margin: 10px 0;
                     color: $white;
                     text-align: center;
                     font-size: 25px;
                     font-weight: 500;
 
-                    @media(max-width:1024px){
+                    @media(max-width:1024px) {
                         font-size: 20px;
                     }
                 }
             }
 
-            .offer_des{
-                p{
+            .offer_des {
+                p {
                     margin: 0 10px;
                     text-align: center;
                     margin: 5px 10px;
 
-                    @media(max-width:1024px){
+                    @media(max-width:1024px) {
                         font-size: 10px;
                     }
                 }
             }
 
-            &:hover{
+            &:hover {
                 transform: translateY(-10px);
             }
 
         }
     }
 
-    .swiper{
+    .swiper {
         width: 100%;
-        height:395px;
-        .swiper-pagination-bullet{
+        height: 395px;
+
+        .swiper-pagination-bullet {
             background-color: $primary;
             opacity: .5;
         }
-        .swiper-pagination-bullet-active{
+
+        .swiper-pagination-bullet-active {
             background-color: $primary;
             opacity: 1;
         }
     }
 
-    .mob_offer_tile{
+    .mob_offer_tile {
         display: none;
-        @media(max-width:640px){
+
+        @media(max-width:640px) {
             display: block;
         }
-        .offer{
+
+        .offer {
             background-color: $monochrome;
             width: 260px;
             height: 330px;
@@ -679,15 +691,16 @@ section .place_btn {
             margin-top: 20px;
 
 
-            .offer_icon{
+            .offer_icon {
                 width: 90px;
-                img{
+
+                img {
                     width: 100%;
                 }
             }
 
-            .offer_title_sec{
-                p{
+            .offer_title_sec {
+                p {
                     text-align: center;
                     font-size: 30px;
                     margin: 10px 0;
@@ -695,10 +708,103 @@ section .place_btn {
                 }
             }
 
-            .offer_des{
-                p{
+            .offer_des {
+                p {
                     text-align: center;
                     margin: 0 30px;
+                }
+            }
+        }
+    }
+}
+
+
+#fifth_section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+
+    .testimo_title {
+        p {
+            color: $monochrome;
+            font-size: 40px;
+            margin: 0;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        span {
+            font-weight: 500;
+            text-align: center;
+        }
+    }
+
+
+    .swiper{
+        width: 100%;
+        height: 400px;
+
+        .swiper-pagination-bullet {
+            background-color: $primary;
+            opacity: .5;
+        }
+
+        .swiper-pagination-bullet-active {
+            background-color: $primary;
+            opacity: 1;
+        }
+    }
+
+
+    .testimo_tile {
+        
+        .testimo_card {
+            position: relative;
+            // background-color: yellow;
+            margin:150px auto auto auto;
+            width: 400px;
+            height: 180px ;
+            border-radius: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            transition: all .3s;
+            cursor: pointer;
+
+            &:hover {
+                box-shadow: 0px 0px 30px 5px rgba(220,0,2,0.56);
+                -webkit-box-shadow: 0px 0px 30px 5px rgba(220,0,2,0.56);
+                -moz-box-shadow: 0px 0px 30px 5px rgba(220,0,2,0.56);
+            }
+        }
+
+        .testimo_icon {
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            overflow: hidden;
+            border-radius: 100%;
+            top: -75px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .testimo_des {
+            p {
+                margin: 20px;
+                font-size: 13px;
+                text-align: center;
+                color: $monochrome;
+
+                span {
+                    font-size: 50px;
+                    font-weight: 500;
                 }
             }
         }

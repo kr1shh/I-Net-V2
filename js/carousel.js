@@ -77,3 +77,29 @@ const offer_mob_swiper = new Swiper(".mob_offer_tile", {
       el: ".swiper-pagination",
     },
   });
+
+
+  const testimo_swiper = new Swiper(".testimo_tile", {
+    direction: "horizontal",
+    loop: true,
+    autoplay: {
+      delay: 3000,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 3,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 50,
+        },
+      },
+  });
