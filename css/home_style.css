@@ -649,25 +649,25 @@ section .place_btn a:hover button {
   cursor: pointer;
 }
 #fifth_section .testimo_tile .testimo_card:hover {
-  box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
-  -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
-  -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+  box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+  -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+  -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
 }
 @media (max-width: 640px) {
   #fifth_section .testimo_tile .testimo_card {
     width: 300px;
     height: 180px;
     margin: 100px auto auto auto;
-    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
-    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
-    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
   }
 }
 @media (max-width: 768px) {
   #fifth_section .testimo_tile .testimo_card {
-    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
-    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
-    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.56);
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
   }
 }
 @media (min-width: 769px) and (max-width: 1200px) {
