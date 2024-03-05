@@ -111,6 +111,12 @@ footer .footer_container .join .j-input button:hover {
     padding: 12px 30px;
   }
 }
+footer .footer_container .footer_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 footer .footer_container .footer_copy p {
   color: white;
 }/*# sourceMappingURL=footer_style.css.map */

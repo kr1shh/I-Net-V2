@@ -64,9 +64,6 @@ nav .nav_container {
                 font-weight: 800;
             }
 
-            &:active{
-                font-weight: 800;
-            }
         }
     }
 
@@ -155,6 +152,10 @@ nav .nav_container {
             height: 4px;
         }
     }
+}
+
+.link_active{
+    font-weight: 800;
 }
 
 

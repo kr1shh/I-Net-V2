@@ -22,17 +22,11 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 
 
-//     let logo_icon = document.querySelector(".nav_container .nav_logo img")
-//     if(window.innerWidth <= 640){
-//         logo_icon.src="../assets/logos/logo icon.png"
-//     }else{
-//         logo_icon.src="../assets/logos/logo-removebg-preview.png"
-//     }
-//     window.addEventListener("resize",()=>{
-//         if(window.innerWidth <= 640){
-//             logo_icon.src="../assets/logos/logo icon.png"
-//         }else{
-//             logo_icon.src="../assets/logos/logo-removebg-preview.png"
-//         }
-//     })
+
+    // let activePage = window.location.pathname
+    // const navLinks = document.querySelectorAll("nav .nav_links a").forEach(
+    //     link => {
+    //         console.log(link.href);
+    //     }
+    // )
 })
