@@ -10,7 +10,8 @@ footer {
         align-items: center;
         background-color: $monochrome;
         margin: 200px 0 0 0;
-        padding: 100px 0 20px 0;
+        padding: 150px 0 20px 0;
+        color: $white;
 
         .join {
             position: absolute;
@@ -123,17 +124,145 @@ footer {
         }
 
         .footer_details{
+            width: 100%;
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
+            gap: 50px;
 
-            
+            .footer_main{
+                width: 100%;
+                display: flex;
+                // align-items: center;
+                justify-content: space-around;
+
+                .footer_company_details{
+                    display: flex;
+                    flex-direction: column;
+
+
+                    .footer_company{
+                        display: flex;
+                        flex-direction: column;
+
+                        img{
+                            width: 300px;
+                        }
+
+                        p{
+                            width: 450px;
+                            font-size: 13px;
+                        }
+
+    
+                    }
+                    .footer_certification{
+                        display: flex;
+                        flex-direction: column;
+
+                        p{
+                            font-weight: 700;
+                            font-size: 30px;
+                        }
+    
+                        .foot_cert_logos{
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+
+                            .image{
+                                width:70px;
+
+                                img{
+                                    width: 100%;
+                                }
+                            }
+
+                        }
+                    }
+                }
+
+                .footer_courses{
+                    display: flex;
+                    flex-direction: column;
+
+                    p{
+                        font-size: 30px;
+                        font-weight: 600;
+                    }
+
+                    .footer_c_rows{
+                        display: flex;
+
+                        .footer_c_row_1,.footer_c_row_2{
+                            ul{
+                                display: flex;
+                                flex-direction: column;
+                                list-style: none;
+                                gap: 5px;
+                                margin: 0;
+                                
+
+                                li{
+
+                                    transition: transform .3s;
+
+                                    &:hover{
+                                        // text-decoration: underline;
+                                        transform: translateX(5px);
+                                    }
+
+                                    a{
+                                        text-decoration: none;
+                                        color: $white;
+    
+                                        &:hover{
+                                            text-decoration: underline;
+                                            transform: translateY(10px);
+                                        }
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            .footer_contact{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                gap: 10px;
+
+                p{
+                    margin: 0;
+                    font-weight: 600;
+                    font-size: 30px;
+                }
+
+                .footer_c_details{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    gap: 5px;
+
+                    li{
+                        list-style: none;
+                    }
+                }
+            }
         }
 
         .footer_copy{
             p{
                 color: $white;
+                font-weight: 200;
+                font-size: 13px;
             }
         }
 

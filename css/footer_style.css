@@ -7,7 +7,8 @@ footer .footer_container {
   align-items: center;
   background-color: #DC0002;
   margin: 200px 0 0 0;
-  padding: 100px 0 20px 0;
+  padding: 150px 0 20px 0;
+  color: white;
 }
 footer .footer_container .join {
   position: absolute;
@@ -112,11 +113,109 @@ footer .footer_container .join .j-input button:hover {
   }
 }
 footer .footer_container .footer_details {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 50px;
+}
+footer .footer_container .footer_details .footer_main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_company {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_company img {
+  width: 300px;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_company p {
+  width: 450px;
+  font-size: 13px;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_certification {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_certification p {
+  font-weight: 700;
+  font-size: 30px;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_certification .foot_cert_logos {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_certification .foot_cert_logos .image {
+  width: 70px;
+}
+footer .footer_container .footer_details .footer_main .footer_company_details .footer_certification .foot_cert_logos .image img {
+  width: 100%;
+}
+footer .footer_container .footer_details .footer_main .footer_courses {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer_container .footer_details .footer_main .footer_courses p {
+  font-size: 30px;
+  font-weight: 600;
+}
+footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows {
+  display: flex;
+}
+footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_1 ul, footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_2 ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 5px;
+  margin: 0;
+}
+footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_1 ul li, footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_2 ul li {
+  transition: transform 0.3s;
+}
+footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_1 ul li:hover, footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_2 ul li:hover {
+  transform: translateX(5px);
+}
+footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_1 ul li a, footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_1 ul li a:hover, footer .footer_container .footer_details .footer_main .footer_courses .footer_c_rows .footer_c_row_2 ul li a:hover {
+  text-decoration: underline;
+  transform: translateY(10px);
+}
+footer .footer_container .footer_details .footer_contact {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+footer .footer_container .footer_details .footer_contact p {
+  margin: 0;
+  font-weight: 600;
+  font-size: 30px;
+}
+footer .footer_container .footer_details .footer_contact .footer_c_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 5px;
+}
+footer .footer_container .footer_details .footer_contact .footer_c_details li {
+  list-style: none;
 }
 footer .footer_container .footer_copy p {
   color: white;
+  font-weight: 200;
+  font-size: 13px;
 }/*# sourceMappingURL=footer_style.css.map */
