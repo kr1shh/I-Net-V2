@@ -86,8 +86,9 @@ nav .nav_container .nav_log a:nth-child(1) button {
   transition: all 0.3s;
 }
 nav .nav_container .nav_log a:nth-child(1) button:hover {
-  background-color: #DC0002;
+  background-color: #FF1012;
   color: white;
+  border: 1px solid #FF1012;
 }
 nav .nav_container .nav_log a:nth-child(2) button {
   background-color: #DC0002;

@@ -21,6 +21,8 @@ body, html {
     font-family: 'Montserrat';
     // overflow-x: hidden;
     scroll-behavior: smooth;
+
+    
 }
 
 // Styles for the navigation container
@@ -98,8 +100,9 @@ nav .nav_container {
                 transition: all .3s;
 
                 &:hover {
-                    background-color: $monochrome;
+                    background-color: $primary;
                     color: $white;
+                    border: 1px solid $primary;
                 }
             }
 

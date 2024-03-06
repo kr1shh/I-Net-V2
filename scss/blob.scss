@@ -7,7 +7,7 @@
     z-index: -10;
 
     @media( max-width: 640px ){
-        display: none;
+        width: 400px;
     }
 }
 
@@ -19,6 +19,8 @@
             top: 50%;
             left: -32%;
         }
+
+
 }
 
 .blob.two{
@@ -28,4 +30,12 @@
     @media(max-width:768px){
         top:-61%;
     }
+    @media(max-width:640px){
+        top: -18%;
+    }
+}
+
+.blob.three{
+    top: 1526px;
+    left: -132px;
 }

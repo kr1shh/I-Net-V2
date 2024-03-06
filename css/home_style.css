@@ -1,4 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+div.bg_els {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+@media (max-width: 640px) {
+  div.bg_els {
+    display: none;
+  }
+}
+div.bg_els .bg_hor svg:nth-child(1) {
+  position: absolute;
+  top: 10%;
+  right: 52%;
+  animation: hor 4s ease-in-out infinite;
+}
+div.bg_els .bg_hor svg:nth-child(2) {
+  position: absolute;
+  top: 58%;
+  left: 42%;
+  animation: hor 4s ease-in-out infinite;
+}
+div.bg_els .bg_hor svg:nth-child(3) {
+  position: absolute;
+  top: 19%;
+  left: 21%;
+  animation: hor 4s ease-in-out infinite;
+}
+div.bg_els .bg_ver svg:nth-child(1) {
+  position: absolute;
+  top: 67%;
+  left: 10%;
+  animation: ver 4s ease-in-out infinite;
+}
+div.bg_els .bg_ver svg:nth-child(2) {
+  position: absolute;
+  width: 35px;
+  top: 10%;
+  left: 1%;
+  animation: ver 4s ease-in-out infinite;
+}
+div.bg_els .bg_ver svg:nth-child(3) {
+  position: absolute;
+  top: 20%;
+  right: 5%;
+  animation: ver 4s ease-in-out infinite;
+}
+div.bg_els svg {
+  width: 45px;
+}
+
 section .hero_container {
   position: relative;
   margin-top: 30px;
@@ -7,6 +60,7 @@ section .hero_container {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  background-color: rgba(220, 0, 4, 0.0352941176);
 }
 section .hero_container .cont_1 {
   display: flex;
@@ -96,7 +150,7 @@ section .hero_container .cont_1 .hero_img lottie-player {
   position: relative;
   width: 100%;
   margin: 65px 90px 0 0;
-  z-index: -1;
+  z-index: 0;
 }
 @media (max-width: 768px) {
   section .hero_container .cont_1 .hero_img lottie-player {
@@ -711,5 +765,28 @@ section .place_btn a:hover button {
 @media (min-width: 769px) and (max-width: 1200px) {
   #fifth_section .testimo_tile .testimo_des p {
     font-size: 10px;
+  }
+}
+
+@keyframes hor {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(30px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes ver {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(30px);
+  }
+  100% {
+    transform: translateY(0);
   }
 }/*# sourceMappingURL=home_style.css.map */
