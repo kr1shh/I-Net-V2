@@ -3,8 +3,8 @@ a.phone {
   display: none;
   text-decoration: none;
   position: fixed;
-  bottom: 43px;
-  right: 22px;
+  bottom: 81px;
+  right: 20px;
   z-index: 50;
   transform: translateY(80px);
   opacity: 0;
@@ -19,8 +19,8 @@ a.phone .main_call {
   display: grid;
   place-items: center;
   border-radius: 50px;
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   background-color: #DC0002;
   animation: breath 2s ease-in-out infinite;
 }
