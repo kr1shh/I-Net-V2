@@ -3,7 +3,7 @@ a.phone {
   display: none;
   text-decoration: none;
   position: fixed;
-  bottom: 81px;
+  bottom: 20px;
   right: 20px;
   z-index: 50;
   transform: translateY(80px);
