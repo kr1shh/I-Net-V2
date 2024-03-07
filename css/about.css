@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.about_story {
+  width: 100%;
+  margin: 100px 0 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #DC0002;
+}
+.about_story p:nth-child(1) {
+  font-size: 45px;
+  margin: 0 0 30px 0;
+}
+.about_story p:nth-child(1) span {
+  font-weight: 900;
+  background: linear-gradient(to bottom right, #000000 0%, #DC0002 63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientAnimation 5s infinite alternate;
+  display: inline-block;
+}
+.about_story p:nth-child(3) {
+  text-align: center;
+  margin: 40px 0 0 0;
+  width: 300px;
+}
+.about_story .story_img {
+  width: 305px;
+  overflow: hidden;
+  border-radius: 35px;
+}
+.about_story .story_img img {
+  width: 100%;
+}/*# sourceMappingURL=about.css.map */
