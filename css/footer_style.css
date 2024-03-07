@@ -294,4 +294,9 @@ footer .footer_container .footer_copy p {
   color: white;
   font-weight: 200;
   font-size: 13px;
+}
+@media (max-width: 640px) {
+  footer .footer_container .footer_copy p {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=footer_style.css.map */

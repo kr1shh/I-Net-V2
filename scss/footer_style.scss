@@ -324,6 +324,10 @@ footer {
                 color: $white;
                 font-weight: 200;
                 font-size: 13px;
+
+                @media(max-width:640px){
+                    font-size: 10px;
+                }
             }
         }
 
