@@ -58,6 +58,7 @@ section .contact_container{
                         border-radius: 50px;
                         border: none;
                         background: #FFE3E3;
+                        font-family: 'Montserrat';
 
                         &::placeholder{
                             
@@ -84,6 +85,8 @@ section .contact_container{
                         padding: 15px;
                         border: none;
                         background: #FFE3E3;
+                        resize: none;
+                        font-family: 'Montserrat';
 
                         &::placeholder{
                             color: $monochrome;

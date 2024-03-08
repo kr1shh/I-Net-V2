@@ -26,6 +26,7 @@
         text-align: center;
         margin: 40px 0 0 0;
         width: 300px;
+        color: $black;
         
         @media(min-width:768px){
             width: 80%;
@@ -70,6 +71,7 @@ section .c_detailing{
         font-weight: 600;
         margin: 50px 70px;
         text-align: center;
+        
 
         @media(min-width:1024px){
             font-size: 40px;
