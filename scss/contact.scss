@@ -12,15 +12,25 @@ section .contact_container{
         color: $monochrome;
         font-weight: 600;
         font-size: 30px;
+
+        @media(min-width:768px){
+            margin-bottom: 60px;
+        }
     }
 
     .contact_field_container{
+        @media(min-width:1024px){
+            border: 1px solid #FFE3E3;
+            border-radius: 35px;
+            padding: 60px;
+        }
         form{
             display: flex;
             flex-direction: column;
             align-items: center;
             justify-content: center;
             color: $monochrome;
+            font-weight: 500;
             gap: 25px;
 
             .contact_inputs{
@@ -29,6 +39,10 @@ section .contact_container{
                 align-items: center;
                 justify-content: center;
                 gap: 15px;
+
+                @media(min-width:768px){
+                    flex-direction: row;
+                }
 
                 .input_details{
                     display: flex;
@@ -78,6 +92,10 @@ section .contact_container{
 
                         &:focus{
                             outline: none;
+                        }
+
+                        @media(min-width:768px){
+                            height: 203px;
                         }
                     }
                 }
