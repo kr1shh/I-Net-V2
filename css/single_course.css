@@ -137,6 +137,11 @@ section .course_overview_container .co_modules .co_module .co_mod_title {
 }
 section .course_overview_container .co_modules .co_module .co_mod_title img {
   width: 30px;
+  transition: transform 0.3s ease;
+}
+section .course_overview_container .co_modules .co_module .co_mod_title img.open {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
 }
 section .course_overview_container .co_modules .co_module .co_mod_content {
   border-radius: 35px;
