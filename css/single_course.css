@@ -124,6 +124,21 @@ section .course_overview_container .co_modules .co_module {
   flex-direction: column;
   gap: 5px;
 }
+@media (min-width: 640px) {
+  section .course_overview_container .co_modules .co_module {
+    width: 590px;
+  }
+}
+@media (min-width: 1024px) {
+  section .course_overview_container .co_modules .co_module {
+    width: 75%;
+  }
+}
+@media (min-width: 1440px) {
+  section .course_overview_container .co_modules .co_module {
+    width: 60%;
+  }
+}
 section .course_overview_container .co_modules .co_module .co_mod_title {
   height: 50px;
   display: flex;

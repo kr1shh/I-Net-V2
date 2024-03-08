@@ -127,6 +127,18 @@ section .course_overview_container{
             flex-direction: column;
             gap: 5px;
 
+            @media(min-width:640px){
+                width: 590px;
+            }
+
+            @media(min-width:1024px){
+                width: 75%;
+            }
+
+            @media(min-width:1440px){
+                width: 60%;
+            }
+
 
 
             .co_mod_title{
