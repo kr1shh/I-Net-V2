@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+section .contact_container {
+  margin: 80px 0 0 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section .contact_container p {
+  color: #DC0002;
+  font-weight: 600;
+  font-size: 30px;
+}
+section .contact_container .contact_field_container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #DC0002;
+  gap: 25px;
+}
+section .contact_container .contact_field_container form .contact_inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input {
+  width: 275px;
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 50px;
+  border: none;
+  background: #FFE3E3;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input::-moz-placeholder {
+  font-family: "Montserrat";
+  color: #DC0002;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input::placeholder {
+  font-family: "Montserrat";
+  color: #DC0002;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input:focus {
+  outline: none;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 15px;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea {
+  width: 275px;
+  height: 145px;
+  border-radius: 25px;
+  padding: 15px;
+  border: none;
+  background: #FFE3E3;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea::-moz-placeholder {
+  color: #DC0002;
+  font-family: "Montserrat";
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea::placeholder {
+  color: #DC0002;
+  font-family: "Montserrat";
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea:focus {
+  outline: none;
+}
+section .contact_container .contact_field_container form .contact_btn button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Montserrat";
+  color: white;
+  background-color: #DC0002;
+}/*# sourceMappingURL=contact.css.map */

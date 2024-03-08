@@ -1,0 +1,97 @@
+@import './variables.scss';
+
+section .contact_container{
+    margin: 80px 0 0 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    p{
+        color: $monochrome;
+        font-weight: 600;
+        font-size: 30px;
+    }
+
+    .contact_field_container{
+        form{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: $monochrome;
+            gap: 25px;
+
+            .contact_inputs{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+
+                .input_details{
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    input{
+                        width: 275px;
+                        height: 45px;
+                        padding: 0 15px;
+                        border-radius: 50px;
+                        border: none;
+                        background: #FFE3E3;
+
+                        &::placeholder{
+                            
+                            font-family: 'Montserrat';
+                            color: $monochrome;
+                        }
+
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+                .input_msg{
+                    display: flex;
+                    align-items: start;
+                    justify-content: start;
+                    flex-direction: column;
+                    gap: 15px;
+
+                    textarea{
+                        width: 275px;
+                        height: 145px;
+                        border-radius: 25px;
+                        padding: 15px;
+                        border: none;
+                        background: #FFE3E3;
+
+                        &::placeholder{
+                            color: $monochrome;
+                            font-family: 'Montserrat';
+                        }
+
+                        &:focus{
+                            outline: none;
+                        }
+                    }
+                }
+            }
+            .contact_btn{
+                button{
+                    padding: $btn_padding;
+                    border-radius: 50px;
+                    border: none;
+                    font-family: 'Montserrat';
+                    color: $white;
+                    background-color: $monochrome;
+                }
+            }
+        }
+    }
+}
