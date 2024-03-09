@@ -22,6 +22,9 @@ section .contact_container p {
     border: 1px solid #FFE3E3;
     border-radius: 35px;
     padding: 60px;
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
   }
 }
 section .contact_container .contact_field_container form {
@@ -112,6 +115,11 @@ section .contact_container .contact_field_container form .contact_btn button {
   font-family: "Montserrat";
   color: white;
   background-color: #DC0002;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section .contact_container .contact_field_container form .contact_btn button:hover {
+  background-color: #FF1012;
 }
 
 .address_container {

@@ -14,31 +14,37 @@ section .gallery_container{
             font-weight: 600;
             color: $monochrome;
             margin: 0 0 20px 0;
+
+            @media(min-width: 1024px){
+                font-size: 40px;
+            }
         }
     }
 
     .gallery_tile_row{
+        width: 100%;
         .swiper{
-            width: 300px;
-            height: auto;
-
-
-            // .swiper-button-next:after, .swiper-button-prev:after{
-            //     background-color: $monochrome;
-            //     color: $white;
-            //     font-size: 20px;
-            //     padding: 10px 15px;
-            //     border-radius: 150px;
-            // }
+            width: 100%;
+            height: 100%;
         }
+
         .g_img{
             width: 250px;
             border-radius: 35px;
             overflow: hidden;
             margin: auto;
 
+            &:hover img{
+                transform: scale(1.1);
+            }
+
+            @media(min-width:1440px){
+                width: 300px;
+            }
+
             img{
                 width: 100%;
+                transition: transform .3s;
             }
         }
     }

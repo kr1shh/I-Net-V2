@@ -23,6 +23,10 @@ section .contact_container{
             border: 1px solid #FFE3E3;
             border-radius: 35px;
             padding: 60px;
+
+            box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+            -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+            -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
         }
         form{
             display: flex;
@@ -111,6 +115,12 @@ section .contact_container{
                     font-family: 'Montserrat';
                     color: $white;
                     background-color: $monochrome;
+                    cursor: pointer;
+                    transition: all .3s ease-in-out;
+
+                    &:hover{
+                        background-color: $primary;
+                    }
                 }
             }
         }
