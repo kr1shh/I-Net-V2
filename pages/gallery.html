@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="../css/nav_styles.css">
     <link rel="stylesheet" href="../css/footer_style.css">
     <link rel="stylesheet" href="../css/phone_style.css">
-    <link rel="stylesheet" href="../css/contact.css">
-    <title>Contact Us - I Net Infotech</title>
+    <link rel="stylesheet" href="../css/gallery.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Gallery - I Net Infotech</title>
 </head>
 
 <body>
-
 
     <nav>
         <div class="nav_container">
@@ -23,10 +23,10 @@
             <div class="nav_links">
                 <ul>
                     <li><a href="../index.html">Home</a></li>
-                    <li><a href="../pages/gallery.html">Gallery</a></li>
+                    <li><a style="font-weight: 700;" href="../pages/gallery.html">Gallery</a></li>
                     <li><a href="#">Courses</a></li>
                     <li><a href="../pages/about.html">About Us</a></li>
-                    <li><a style="font-weight: 700;" href="../pages/contact.html">Contact Us</a></li>
+                    <li><a href="../pages/contact.html">Contact Us</a></li>
                 </ul>
             </div>
             <div class="nav_log">
@@ -76,50 +76,101 @@
 
 
     <section>
-        <div class="contact_container">
-            <p>Contact Us</p>
-            <div class="contact_field_container">
-                <form action="#" method="post">
-                    <div class="contact_inputs">
-                        <div class="input_details">
-                            <label for="name">Name</label>
-                            <input type="text" name="name" placeholder="Your Name" required>
-                            <label for="mobile">Mobile</label>
-                            <input type="number" name="mobile" placeholder="Your Mobile" required>
-                            <label for="email">E-Mail</label>
-                            <input type="email" name="email" placeholder="Your E-Mail" required>
+        <div class="gallery_container">
+            <div class="gallery_title">
+                <p>
+                    Our Infrastructure
+                </p>
+            </div>
+
+            <div class="gallery_tile_row">
+
+
+
+                <div class="swiper gallerySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
                         </div>
-                        <div class="input_msg">
-                            <label for="msg">Message</label>
-                            <textarea name="msg" placeholder="Your Message" required></textarea>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
                         </div>
                     </div>
-                    <div class="contact_btn">
-                        <button type="submit">
-                            Send
-                        </button>
+                </div>
+            </div>
+
+            <div class="gallery_tile_row">
+                <div class="swiper lGallerySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="g_img">
+                                <img src="../assets/images/gallery/g1.jpeg" alt="">
+                            </div>
+                        </div>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
     </section>
-
-    <div class="address_container">
-        <div class="ad_icon">
-            <img src="../assets/icons/Location white.png" alt="Address">
-        </div>
-        <div class="ad_title">
-            <p>Address</p>
-        </div>
-        <div class="ad_des">
-            <address>
-                VBM Bava Chambers, Paramara Rd,
-                Ernakulam North, Kacheripady, 
-                Ernakulam, Kerala 682018
-            </address>
-        </div>
-    </div>
-
 
 
     <footer>
@@ -223,8 +274,35 @@
         </div>
     </a>
 
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/module_collapse.js"></script>
     <script src="../js/mob_nav.js"></script>
     <script src="../js/phone_visbility.js"></script>
+
+    <script>
+        const gSwiper = new Swiper(".gallerySwiper", {
+            spaceBetween: 10,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: true,
+            },
+        });
+
+        const lgSwiper = new Swiper(".lGallerySwiper", {
+            spaceBetween: 10,
+            loop: true,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: true,
+                reverseDirection: true
+            },
+        });
+
+    </script>
 
 </body>
 

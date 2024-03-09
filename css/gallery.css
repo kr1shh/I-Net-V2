@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+section .gallery_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 100px 0 0 0;
+  gap: 20px;
+}
+section .gallery_container .gallery_title p {
+  font-size: 30px;
+  font-weight: 600;
+  color: #DC0002;
+  margin: 0 0 20px 0;
+}
+section .gallery_container .gallery_tile_row .swiper {
+  width: 300px;
+  height: auto;
+}
+section .gallery_container .gallery_tile_row .g_img {
+  width: 250px;
+  border-radius: 35px;
+  overflow: hidden;
+  margin: auto;
+}
+section .gallery_container .gallery_tile_row .g_img img {
+  width: 100%;
+}/*# sourceMappingURL=gallery.css.map */

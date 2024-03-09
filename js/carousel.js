@@ -37,6 +37,7 @@ const swiper = new Swiper(".p-swiper", {
   pagination: {
     el: ".swiper-pagination",
     dynamicBullets: false,
+    clickable: true,
   },
 });
 
@@ -49,6 +50,7 @@ const c_swiper = new Swiper(".c-Swiper", {
   },
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
     dynamicBullets: false,
   },
 });
@@ -62,6 +64,7 @@ const c_mob_swiper = new Swiper(".c-mob-Swiper", {
   },
   pagination: {
     el: ".swiper-pagination",
+    clickable: true,
   },
 });
 
@@ -75,6 +78,7 @@ const offer_mob_swiper = new Swiper(".mob_offer_tile", {
     },
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
   });
 
@@ -87,6 +91,7 @@ const offer_mob_swiper = new Swiper(".mob_offer_tile", {
     },
     pagination: {
       el: ".swiper-pagination",
+      clickable: true,
     },
     breakpoints: {
         640: {
@@ -103,3 +108,4 @@ const offer_mob_swiper = new Swiper(".mob_offer_tile", {
         },
       },
   });
+
