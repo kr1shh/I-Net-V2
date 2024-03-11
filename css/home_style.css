@@ -163,6 +163,10 @@ section .hero_container .cont_2 {
   align-items: center;
   justify-content: center;
 }
+section .hero_container .cont_2 .down_arrow {
+  position: relative;
+  z-index: 5;
+}
 section .hero_container .cont_2 .down_arrow .round {
   width: 40px;
   height: 40px;

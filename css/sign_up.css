@@ -32,12 +32,14 @@ section .login_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid white;
   border-radius: 35px;
   padding: 30px 45px;
   z-index: 0;
+  max-height: 550px;
+  overflow: auto;
   box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
   -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
   -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
@@ -50,6 +52,7 @@ section .login_container {
     border: 1px solid white;
     border-radius: 0px;
     padding: 30px 15px;
+    overflow: auto;
   }
 }
 section .login_container .login_logo {
@@ -104,6 +107,18 @@ section .login_container form input::placeholder {
     color: white;
   }
 }
+section .login_container form select {
+  width: 280px;
+  padding: 15px 15px;
+  border-radius: 50px;
+  border: none;
+  background-color: #FFE3E3;
+  color: #DC0002;
+  font-family: "Montserrat";
+}
+section .login_container form select:focus {
+  outline: none;
+}
 section .login_container form button {
   padding: 12px 30px;
   background-color: #FFE3E3;
@@ -112,7 +127,7 @@ section .login_container form button {
   color: #DC0002;
   font-weight: 500;
   border-radius: 50px;
-  width: 100px;
+  width: 115px;
   margin: 20px auto;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
@@ -128,4 +143,23 @@ section .login_container a {
 }
 section .login_container a:hover {
   text-decoration: underline;
-}/*# sourceMappingURL=login.css.map */
+}
+
+/* Hide the scrollbar for WebKit browsers */
+.login_container::-webkit-scrollbar {
+  width: 0.5em;
+}
+
+.login_container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.login_container::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+/* For Firefox */
+.login_container {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}/*# sourceMappingURL=sign_up.css.map */
