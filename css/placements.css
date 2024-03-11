@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+section .all_placement {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+section .all_placement .all_placement_title p {
+  color: #DC0002;
+  font-size: 40px;
+  font-weight: 500;
+}
+section .all_placement .all_placement_title p span {
+  font-weight: 900;
+  background: linear-gradient(to bottom right, #000000 0%, #DC0002 63%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+section .all_placement .placement_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section .all_placement .placement_container .all_placements {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+@media (max-width: 1024px) {
+  section .all_placement .placement_container .all_placements {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 640px) {
+  section .all_placement .placement_container .all_placements {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  }
+}
+section .all_placement .placement_container .all_placements .place_std {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  height: 350px;
+  border-radius: 35px;
+  background-color: white;
+  overflow: hidden;
+}
+section .all_placement .placement_container .all_placements .place_std img {
+  width: 110%;
+  transition: transform 0.3s;
+}
+section .all_placement .placement_container .all_placements .place_std .place_details {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+section .all_placement .placement_container .all_placements .place_std .place_details p {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+section .all_placement .placement_container .all_placements .place_std .place_details p span {
+  font-weight: 200;
+}
+section .all_placement .placement_container .all_placements .place_std .place_overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(220, 0, 2);
+  background: linear-gradient(0deg, rgb(220, 0, 2) 0%, rgba(220, 0, 2, 0) 60%);
+  transform: scaleY(1.6);
+  transition: transform 0.3s;
+}
+@media (max-width: 640px) {
+  section .all_placement .placement_container .all_placements .place_std .place_overlay {
+    transform: scaleY(1);
+  }
+}
+section .all_placement .placement_container .all_placements .place_std:hover .place_overlay {
+  transform: scaleY(1);
+}/*# sourceMappingURL=placements.css.map */
