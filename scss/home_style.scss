@@ -628,6 +628,25 @@ section .place_btn {
             }
         }
     }
+
+    .all_course{
+        text-decoration: none;
+
+        button{
+            padding: $btn_padding;
+            background-color: $monochrome;
+            color: $white;
+            border-radius: 50px;
+            border: none;
+            font-family: 'Montserrat';
+            margin-top: 20px;
+            transition: all .3s ease-in-out;
+
+            &:hover{
+                background-color: $primary;
+            }
+        }
+    }
 }
 
 

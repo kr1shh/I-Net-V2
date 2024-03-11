@@ -503,6 +503,22 @@ section .place_btn a:hover button {
 #third_section .c-mob-Swiper .course_tile ._course_btn a button {
   padding: 12px 18px;
 }
+#third_section .all_course {
+  text-decoration: none;
+}
+#third_section .all_course button {
+  padding: 12px 30px;
+  background-color: #DC0002;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-family: "Montserrat";
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+#third_section .all_course button:hover {
+  background-color: #FF1012;
+}
 
 #forth_section {
   display: flex;
