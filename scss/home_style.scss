@@ -149,6 +149,8 @@ section .hero_container {
             // Styles for the link within hero text
             a {
                 text-decoration: none;
+                cursor: pointer;
+                z-index: 3;
 
                 // Styles for the button within the link
                 button {
@@ -448,6 +450,7 @@ section .place_btn {
 
     a {
         text-decoration: none;
+        cursor: pointer;
 
         button {
             font-family: 'Montserrat';
@@ -457,6 +460,7 @@ section .place_btn {
             border-radius: 50px;
             border: none;
             transition: all .3s;
+            cursor: pointer;
         }
 
         &:hover button {
@@ -482,6 +486,10 @@ section .place_btn {
             font-size: 40px;
             font-weight: 600;
             color: $monochrome;
+
+            @media(max-width:640px){
+                font-size: 30px;
+            }
 
             span {
                 font-weight: 900;
@@ -641,6 +649,7 @@ section .place_btn {
             font-family: 'Montserrat';
             margin-top: 20px;
             transition: all .3s ease-in-out;
+            cursor: pointer;
 
             &:hover{
                 background-color: $primary;

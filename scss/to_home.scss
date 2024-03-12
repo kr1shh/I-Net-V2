@@ -1,0 +1,35 @@
+@import '../scss/variables.scss';
+
+.tohome{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 5px 5px;
+    border-radius: 100px;
+    background-color: white;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+    width: 35px;
+    height: 35px;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+    cursor: pointer;
+
+    img{
+        width:15px;
+        margin-left:10px ;
+    }
+
+    p{
+        margin: 0 0 0 15px;
+        color: $monochrome;
+        font-family: 'Montserrat';
+        font-weight: 600;
+    }
+
+    &:hover{
+        width: 100px;
+    }
+    
+}

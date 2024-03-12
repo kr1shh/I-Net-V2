@@ -122,6 +122,8 @@ section .hero_container .cont_1 .hero_text p span {
 }
 section .hero_container .cont_1 .hero_text a {
   text-decoration: none;
+  cursor: pointer;
+  z-index: 3;
 }
 section .hero_container .cont_1 .hero_text a button {
   font-family: "Montserrat";
@@ -362,6 +364,7 @@ section .place_btn {
 }
 section .place_btn a {
   text-decoration: none;
+  cursor: pointer;
 }
 section .place_btn a button {
   font-family: "Montserrat";
@@ -371,6 +374,7 @@ section .place_btn a button {
   border-radius: 50px;
   border: none;
   transition: all 0.3s;
+  cursor: pointer;
 }
 section .place_btn a:hover button {
   background-color: #FF1012;
@@ -386,6 +390,11 @@ section .place_btn a:hover button {
   font-size: 40px;
   font-weight: 600;
   color: #DC0002;
+}
+@media (max-width: 640px) {
+  #third_section .course_title p {
+    font-size: 30px;
+  }
 }
 #third_section .course_title p span {
   font-weight: 900;
@@ -515,6 +524,7 @@ section .place_btn a:hover button {
   font-family: "Montserrat";
   margin-top: 20px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 #third_section .all_course button:hover {
   background-color: #FF1012;
