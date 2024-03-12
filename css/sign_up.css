@@ -53,6 +53,9 @@ section .login_container {
     border-radius: 0px;
     padding: 30px 15px;
     overflow: auto;
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
   }
 }
 section .login_container .login_logo {
@@ -103,7 +106,7 @@ section .login_container form input::placeholder {
 }
 @media (max-width: 640px) {
   section .login_container form input {
-    width: 220px;
+    width: 250px;
     color: white;
   }
 }

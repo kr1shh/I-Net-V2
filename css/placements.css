@@ -36,7 +36,7 @@ section .all_placement .placement_container .all_placements {
 }
 @media (max-width: 640px) {
   section .all_placement .placement_container .all_placements {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     gap: 5px;
   }
 }
