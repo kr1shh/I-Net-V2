@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
 
 
+
     let ham_burger = document.querySelector(".nav_ham")
     let mob_open = document.querySelector(".mob_nav")
     let mob_close = document.querySelector(".nav_close")
@@ -29,4 +30,6 @@ document.addEventListener("DOMContentLoaded",()=>{
     //         console.log(link.href);
     //     }
     // )
+
+
 })
