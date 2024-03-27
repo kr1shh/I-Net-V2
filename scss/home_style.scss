@@ -527,6 +527,7 @@ section .place_btn {
             height: 316px;
             background-color: $monochrome;
             border-radius: 35px;
+            padding: 10px 10px;
 
             @media(max-width:768px) {
                 width: 180px;

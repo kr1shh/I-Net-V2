@@ -429,6 +429,7 @@ section .place_btn a:hover button {
   height: 316px;
   background-color: #DC0002;
   border-radius: 35px;
+  padding: 10px 10px;
 }
 @media (max-width: 768px) {
   #third_section .course_tile .course {
