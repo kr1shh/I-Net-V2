@@ -243,6 +243,7 @@ section .place_title span {
 }
 .place_caro .owl-carousel .place_std img {
   width: 110%;
+  height: auto;
   transition: transform 0.3s;
 }
 .place_caro .owl-carousel .place_std:hover img {
