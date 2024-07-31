@@ -131,7 +131,7 @@ section .hero_container .cont_1 .hero_text a button {
   border-radius: 50px;
   border: none;
   cursor: pointer;
-  background-color: #DC0002;
+  background-color: #C61517;
   color: white;
   transition: all 0.3s;
 }
@@ -173,7 +173,7 @@ section .hero_container .cont_2 .down_arrow .round {
   width: 40px;
   height: 40px;
   border-radius: 100px;
-  border: 1px solid #DC0002;
+  border: 1px solid #C61517;
   display: grid;
   place-items: center;
 }
@@ -200,7 +200,7 @@ section .place_title {
 }
 section .place_title p {
   margin: 0;
-  color: #DC0002;
+  color: #C61517;
   font-size: 40px;
   text-align: center;
   font-weight: 500;
@@ -371,7 +371,7 @@ section .place_btn a button {
   font-family: "Montserrat";
   padding: 12px 30px;
   color: white;
-  background-color: #DC0002;
+  background-color: #C61517;
   border-radius: 50px;
   border: none;
   transition: all 0.3s;
@@ -390,7 +390,7 @@ section .place_btn a:hover button {
 #third_section .course_title p {
   font-size: 40px;
   font-weight: 600;
-  color: #DC0002;
+  color: #C61517;
 }
 @media (max-width: 640px) {
   #third_section .course_title p {
@@ -413,7 +413,7 @@ section .place_btn a:hover button {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #C61517;
   margin: auto;
 }
 @media (max-width: 768px) {
@@ -428,7 +428,7 @@ section .place_btn a:hover button {
   justify-content: center;
   width: 234px;
   height: 316px;
-  background-color: #DC0002;
+  background-color: white;
   border-radius: 35px;
   padding: 10px 10px;
 }
@@ -445,30 +445,32 @@ section .place_btn a:hover button {
   width: 100%;
 }
 #third_section .course_tile .course ._course_title p {
-  font-weight: 600;
+  font-weight: 700;
   text-align: center;
   font-size: 20px;
   margin: 0;
 }
 #third_section .course_tile .course ._course_dur p {
   font-size: 13px;
+  color: #191919;
 }
 #third_section .course_tile .course ._course_btn a {
   text-decoration: none;
 }
 #third_section .course_tile .course ._course_btn a button {
-  color: white;
+  color: #191919;
+  font-weight: 600;
   font-family: "Montserrat";
   padding: 12px 30px;
-  background-color: transparent;
+  background-color: #f1f1f1;
   border: 1px solid white;
   border-radius: 50px;
   transition: all 0.3s;
   cursor: pointer;
 }
 #third_section .course_tile .course ._course_btn a button:hover {
-  background-color: white;
-  color: #DC0002;
+  background-color: #C61517;
+  color: white;
 }
 @media (max-width: 640px) {
   #third_section .c-Swiper {
@@ -519,7 +521,7 @@ section .place_btn a:hover button {
 }
 #third_section .all_course button {
   padding: 12px 30px;
-  background-color: #DC0002;
+  background-color: #C61517;
   color: white;
   border-radius: 50px;
   border: none;
@@ -545,7 +547,7 @@ section .place_btn a:hover button {
   justify-content: center;
 }
 #forth_section .offer_title p {
-  color: #DC0002;
+  color: #C61517;
   font-size: 40px;
   font-weight: 600;
 }
@@ -577,7 +579,7 @@ section .place_btn a:hover button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #DC0002;
+  background-color: #C61517;
   width: 234px;
   height: 326px;
   border-radius: 35px;
@@ -646,7 +648,7 @@ section .place_btn a:hover button {
   }
 }
 #forth_section .mob_offer_tile .offer {
-  background-color: #DC0002;
+  background-color: #C61517;
   width: 260px;
   height: 330px;
   margin: auto;
@@ -684,7 +686,7 @@ section .place_btn a:hover button {
   margin-top: 80px;
 }
 #fifth_section .testimo_title p {
-  color: #DC0002;
+  color: #C61517;
   font-size: 40px;
   margin: 0;
   font-weight: 600;
@@ -783,7 +785,7 @@ section .place_btn a:hover button {
   margin: 20px;
   font-size: 13px;
   text-align: center;
-  color: #DC0002;
+  color: #C61517;
 }
 #fifth_section .testimo_tile .testimo_des p span {
   font-family: "Montserrat";

@@ -512,7 +512,7 @@ section .place_btn {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        color: $white;
+        color: $monochrome;
         margin: auto;
 
         @media(max-width:768px) {
@@ -526,7 +526,7 @@ section .place_btn {
             justify-content: center;
             width: 234px;
             height: 316px;
-            background-color: $monochrome;
+            background-color: $white;
             border-radius: 35px;
             padding: 10px 10px;
 
@@ -545,7 +545,7 @@ section .place_btn {
 
             ._course_title {
                 p {
-                    font-weight: 600;
+                    font-weight: 700;
                     text-align: center;
                     font-size: 20px;
                     margin: 0;
@@ -555,6 +555,7 @@ section .place_btn {
             ._course_dur {
                 p {
                     font-size: 13px;
+                    color: $dark;
                 }
             }
 
@@ -563,18 +564,19 @@ section .place_btn {
                     text-decoration: none;
 
                     button {
-                        color: $white;
+                        color: $dark;
+                        font-weight: 600;
                         font-family: 'Montserrat';
                         padding: $btn_padding;
-                        background-color: transparent;
+                        background-color: #f1f1f1;
                         border: 1px solid $white;
                         border-radius: 50px;
                         transition: all .3s;
                         cursor: pointer;
 
                         &:hover {
-                            background-color: $white;
-                            color: $monochrome;
+                            background-color: $monochrome;
+                            color: $white;
                         }
                     }
                 }
