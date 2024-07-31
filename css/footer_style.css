@@ -5,7 +5,7 @@ footer .footer_container {
   position: relative;
   flex-direction: column;
   align-items: center;
-  background-color: #DC0002;
+  background-color: #C61517;
   margin: 200px 0 0 0;
   padding: 150px 0 20px 0;
   color: white;
@@ -20,7 +20,7 @@ footer .footer_container .join {
   width: 800px;
   height: 185px;
   border-radius: 35px;
-  color: #DC0002;
+  color: #C61517;
   top: -95px;
   box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
   -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
@@ -65,17 +65,17 @@ footer .footer_container .join .j-input input {
   border: none;
   background-color: #FFE3E3;
   padding: 0 30px;
-  color: #FF1012;
+  color: #191919;
 }
 footer .footer_container .join .j-input input:focus {
   outline: none;
-  border: 1px solid #DC0002;
+  border: 1px solid #C61517;
 }
 footer .footer_container .join .j-input input::-moz-placeholder {
-  color: #DC0002;
+  color: #191919;
 }
 footer .footer_container .join .j-input input::placeholder {
-  color: #DC0002;
+  color: #191919;
 }
 @media (max-width: 768px) {
   footer .footer_container .join .j-input input {
@@ -98,7 +98,7 @@ footer .footer_container .join .j-input button {
   border-radius: 50px;
   font-family: "Montserrat";
   color: white;
-  background-color: #DC0002;
+  background-color: #C61517;
   cursor: pointer;
   transition: all 0.3s;
 }

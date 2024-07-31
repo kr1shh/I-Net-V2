@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #DC0002;
+  color: #C61517;
 }
 .about_story p:nth-child(1) {
   font-size: 45px;
@@ -62,7 +62,7 @@ section .c_detailing {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #DC0002;
+  color: #C61517;
 }
 section .c_detailing p {
   font-size: 30px;
@@ -110,9 +110,11 @@ section .c_detailing .detailing_rows .d_row_1 .d {
   gap: 20px;
   width: 315px;
   height: 400px;
-  background-color: #DC0002;
+  background-color: white;
+  color: #C61517;
   border-radius: 35px;
   transition: transform 0.3s;
+  filter: drop-shadow(-7px 9px 10px rgba(0, 0, 0, 0.1882352941));
 }
 section .c_detailing .detailing_rows .d_row_1 .d:hover {
   transform: translateY(-10px);
@@ -132,13 +134,14 @@ section .c_detailing .detailing_rows .d_row_1 .d .d_icon img {
 }
 section .c_detailing .detailing_rows .d_row_1 .d .d_title_sec p {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 15px;
 }
 section .c_detailing .detailing_rows .d_row_1 .d .d_des p {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 20px;
+  color: #191919;
 }
 @media (min-width: 768px) {
   section .c_detailing .detailing_rows .d_row_1 .d .d_des p {
@@ -169,11 +172,13 @@ section .c_detailing .detailing_rows .d_row_2 .d {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  filter: drop-shadow(-7px 9px 10px rgba(0, 0, 0, 0.1882352941));
   width: 315px;
   height: 400px;
-  background-color: #DC0002;
+  background-color: white;
   border-radius: 35px;
   transition: transform 0.3s;
+  color: #C61517;
 }
 section .c_detailing .detailing_rows .d_row_2 .d:hover {
   transform: translateY(-10px);
@@ -193,13 +198,14 @@ section .c_detailing .detailing_rows .d_row_2 .d .d_icon img {
 }
 section .c_detailing .detailing_rows .d_row_2 .d .d_title_sec p {
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 700;
   margin: 0 15px;
 }
 section .c_detailing .detailing_rows .d_row_2 .d .d_des p {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
   margin: 0 20px;
+  color: #191919;
 }
 @media (min-width: 768px) {
   section .c_detailing .detailing_rows .d_row_2 .d .d_des p {

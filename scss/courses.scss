@@ -50,9 +50,10 @@ section .all_container{
                 justify-content: center;
                 width: 234px;
                 height: 316px;
-                background-color: $monochrome;
+                background-color: $white;
                 border-radius: 35px;
-                color: $white;
+                color: $monochrome;
+                filter: drop-shadow(-7px 9px 10px #00000030);
     
                 @media(max-width:768px) {
                     width: 180px;
@@ -87,18 +88,18 @@ section .all_container{
                         text-decoration: none;
     
                         button {
-                            color: $white;
+                            color: $dark;
                             font-family: 'Montserrat';
                             padding: $btn_padding;
-                            background-color: transparent;
+                            background-color: #f1f1f1;
                             border: 1px solid $white;
                             border-radius: 50px;
                             transition: all .3s;
                             cursor: pointer;
     
                             &:hover {
-                                background-color: $white;
-                                color: $monochrome;
+                                background-color: $monochrome;
+                                color: $white;
                             }
                         }
                     }

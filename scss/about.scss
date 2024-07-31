@@ -112,9 +112,11 @@ section .c_detailing{
 
                 width: 315px;
                 height: 400px;
-                background-color: $monochrome;
+                background-color: $white;
+                color: $monochrome;
                 border-radius: 35px;
                 transition: transform .3s;
+                filter: drop-shadow(-7px 9px 10px #00000030);
 
                 &:hover{
                     transform: translateY(-10px);
@@ -136,15 +138,16 @@ section .c_detailing{
                 .d_title_sec{
                     p{
                         font-size: 25px;
-                        font-weight: 600;
+                        font-weight: 700;
                         margin: 0 15px;
                     }
                 }
                 .d_des{
                     p{
                         font-size: 14px;
-                        font-weight: 400;
+                        font-weight: 500;
                         margin: 0 20px;
+                        color: $dark;
 
                         @media( min-width:768px ){
                             font-size: 12px;
@@ -178,12 +181,13 @@ section .c_detailing{
                 align-items: center;
                 justify-content: center;
                 gap: 20px;
-
+                filter: drop-shadow(-7px 9px 10px #00000030);
                 width: 315px;
                 height: 400px;
-                background-color: $monochrome;
+                background-color: $white;
                 border-radius: 35px;
                 transition: transform .3s;
+                color: $monochrome;
 
                 
                 &:hover{
@@ -206,15 +210,16 @@ section .c_detailing{
                 .d_title_sec{
                     p{
                         font-size: 25px;
-                        font-weight: 600;
+                        font-weight: 700;
                         margin: 0 15px;
                     }
                 }
                 .d_des{
                     p{
                         font-size: 14px;
-                        font-weight: 400;
+                        font-weight: 500;
                         margin: 0 20px;
+                        color: $dark;
 
                         @media( min-width:768px ){
                             font-size: 12px;

@@ -431,6 +431,7 @@ section .place_btn a:hover button {
   background-color: white;
   border-radius: 35px;
   padding: 10px 10px;
+  filter: drop-shadow(-7px 9px 10px rgba(0, 0, 0, 0.1882352941));
 }
 @media (max-width: 768px) {
   #third_section .course_tile .course {
@@ -561,7 +562,7 @@ section .place_btn a:hover button {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: #191919;
   gap: 30px;
 }
 @media (max-width: 640px) {
@@ -579,11 +580,12 @@ section .place_btn a:hover button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #C61517;
+  background-color: white;
   width: 234px;
   height: 326px;
   border-radius: 35px;
   transition: transform 0.3s;
+  filter: drop-shadow(-7px 9px 10px rgba(0, 0, 0, 0.1882352941));
 }
 @media (max-width: 1024px) {
   #forth_section .offer_tile .offer {
@@ -604,10 +606,10 @@ section .place_btn a:hover button {
 }
 #forth_section .offer_tile .offer .offer_title_sec p {
   margin: 10px 0;
-  color: white;
+  color: #C61517;
   text-align: center;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 700;
 }
 @media (max-width: 1024px) {
   #forth_section .offer_tile .offer .offer_title_sec p {
@@ -784,6 +786,7 @@ section .place_btn a:hover button {
 #fifth_section .testimo_tile .testimo_des p {
   margin: 20px;
   font-size: 13px;
+  font-weight: 500;
   text-align: center;
   color: #C61517;
 }

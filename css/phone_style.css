@@ -21,7 +21,7 @@ a.phone .main_call {
   border-radius: 50px;
   width: 50px;
   height: 50px;
-  background-color: #DC0002;
+  background-color: #C61517;
   animation: breath 2s ease-in-out infinite;
 }
 a.phone .main_call img {

@@ -9,7 +9,7 @@ section {
   height: 100vh;
   display: grid;
   place-items: center;
-  color: #DC0002;
+  color: #C61517;
   position: relative;
 }
 section .lg_img {
@@ -24,7 +24,7 @@ section .lg_img {
 }
 @media (max-width: 640px) {
   section {
-    color: #DC0002;
+    color: #C61517;
   }
 }
 section .login_container {
@@ -81,7 +81,7 @@ section .login_container form {
 section .login_container form input {
   width: 250px;
   padding: 15px 15px;
-  color: #DC0002;
+  color: #C61517;
   border-radius: 50px;
   border: none;
   font-family: "Montserrat";
@@ -91,11 +91,11 @@ section .login_container form input:focus {
   outline: none;
 }
 section .login_container form input::-moz-placeholder {
-  color: #DC0002;
+  color: #C61517;
   font-family: "Montserrat";
 }
 section .login_container form input::placeholder {
-  color: #DC0002;
+  color: #C61517;
   font-family: "Montserrat";
 }
 @media (max-width: 640px) {
@@ -109,7 +109,7 @@ section .login_container form button {
   background-color: #FFE3E3;
   border: none;
   font-family: "Montserrat";
-  color: #DC0002;
+  color: #C61517;
   font-weight: 500;
   border-radius: 50px;
   width: 100px;
@@ -118,12 +118,12 @@ section .login_container form button {
   transition: all 0.3s ease-in-out;
 }
 section .login_container form button:hover {
-  background-color: #DC0002;
+  background-color: #C61517;
   color: white;
 }
 section .login_container a {
   text-decoration: none;
-  color: #DC0002;
+  color: #C61517;
   margin-top: 10px;
 }
 section .login_container a:hover {

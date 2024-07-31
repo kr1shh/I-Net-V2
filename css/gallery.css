@@ -10,7 +10,7 @@ section .gallery_container {
 section .gallery_container .gallery_title p {
   font-size: 30px;
   font-weight: 600;
-  color: #DC0002;
+  color: #C61517;
   margin: 0 0 20px 0;
 }
 @media (min-width: 1024px) {

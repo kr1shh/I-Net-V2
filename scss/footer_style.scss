@@ -73,7 +73,7 @@ footer {
                     border: none;
                     background-color: #FFE3E3;
                     padding: 0 30px;
-                    color: $primary;
+                    color: $dark;
 
                     &:focus {
                         outline: none;
@@ -81,7 +81,7 @@ footer {
                     }
 
                     &::placeholder {
-                        color: $monochrome;
+                        color: $dark;
                     }
 
 

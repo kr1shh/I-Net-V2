@@ -24,7 +24,7 @@ section .course_main_container .course_head .course_title {
   order: 2;
 }
 section .course_main_container .course_head .course_title p {
-  color: #DC0002;
+  color: #C61517;
   font-size: 30px;
   text-align: center;
   font-weight: 600;
@@ -75,7 +75,7 @@ section .course_main_container .course_des {
 section .course_main_container .course_des p:nth-child(1) {
   font-size: 30px;
   font-weight: 500;
-  color: #DC0002;
+  color: #C61517;
   margin: 20px 0 10px 0;
 }
 section .course_main_container .course_des p:nth-child(2) {
@@ -101,7 +101,7 @@ section .course_overview_container {
   justify-content: center;
 }
 section .course_overview_container .co_title p {
-  color: #DC0002;
+  color: #C61517;
   font-size: 30px;
   font-weight: 600;
 }
@@ -144,7 +144,7 @@ section .course_overview_container .co_modules .co_module .co_mod_title {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #DC0002;
+  background-color: #C61517;
   color: white;
   padding: 0 20px;
   border-radius: 50px;

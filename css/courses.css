@@ -7,7 +7,7 @@ section .all_container {
   margin-top: 100px;
 }
 section .all_container .all_course_title p {
-  color: #DC0002;
+  color: #C61517;
   font-size: 40px;
   font-weight: 500;
 }
@@ -47,9 +47,10 @@ section .all_container .course_container .all_courses .course {
   justify-content: center;
   width: 234px;
   height: 316px;
-  background-color: #DC0002;
+  background-color: white;
   border-radius: 35px;
-  color: white;
+  color: #C61517;
+  filter: drop-shadow(-7px 9px 10px rgba(0, 0, 0, 0.1882352941));
 }
 @media (max-width: 768px) {
   section .all_container .course_container .all_courses .course {
@@ -76,16 +77,16 @@ section .all_container .course_container .all_courses .course ._course_btn a {
   text-decoration: none;
 }
 section .all_container .course_container .all_courses .course ._course_btn a button {
-  color: white;
+  color: #191919;
   font-family: "Montserrat";
   padding: 12px 30px;
-  background-color: transparent;
+  background-color: #f1f1f1;
   border: 1px solid white;
   border-radius: 50px;
   transition: all 0.3s;
   cursor: pointer;
 }
 section .all_container .course_container .all_courses .course ._course_btn a button:hover {
-  background-color: white;
-  color: #DC0002;
+  background-color: #C61517;
+  color: white;
 }/*# sourceMappingURL=courses.css.map */
