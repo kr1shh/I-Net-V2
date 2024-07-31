@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+a.phone {
+  display: none;
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 50;
+  transform: translateY(80px);
+  opacity: 0;
+  transition: all 0.3s;
+}
+@media (max-width: 640px) {
+  a.phone {
+    display: block;
+  }
+}
+a.phone .main_call {
+  display: grid;
+  place-items: center;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  background-color: #C61517;
+  animation: breath 2s ease-in-out infinite;
+}
+a.phone .main_call img {
+  width: 75%;
+}
+
+a.visible {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+@keyframes breath {
+  0% {
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+  }
+  50% {
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+  }
+  100% {
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0);
+  }
+}/*# sourceMappingURL=phone_style.css.map */

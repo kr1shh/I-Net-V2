@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+section .contact_container {
+  margin: 80px 0 0 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+section .contact_container p {
+  color: #C61517;
+  font-weight: 600;
+  font-size: 30px;
+}
+@media (min-width: 768px) {
+  section .contact_container p {
+    margin-bottom: 60px;
+  }
+}
+@media (min-width: 1024px) {
+  section .contact_container .contact_field_container {
+    border: 1px solid #FFE3E3;
+    border-radius: 35px;
+    padding: 60px;
+    box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -webkit-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+    -moz-box-shadow: 0px 0px 30px 5px rgba(220, 0, 2, 0.32);
+  }
+}
+section .contact_container .contact_field_container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #C61517;
+  font-weight: 500;
+  gap: 25px;
+}
+section .contact_container .contact_field_container form .contact_inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+@media (min-width: 768px) {
+  section .contact_container .contact_field_container form .contact_inputs {
+    flex-direction: row;
+  }
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input {
+  width: 275px;
+  height: 45px;
+  padding: 0 15px;
+  border-radius: 50px;
+  border: none;
+  background: #FFE3E3;
+  font-family: "Montserrat";
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input::-moz-placeholder {
+  font-family: "Montserrat";
+  color: #C61517;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input::placeholder {
+  font-family: "Montserrat";
+  color: #C61517;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_details input:focus {
+  outline: none;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: column;
+  gap: 15px;
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea {
+  width: 275px;
+  height: 145px;
+  border-radius: 25px;
+  padding: 15px;
+  border: none;
+  background: #FFE3E3;
+  resize: none;
+  font-family: "Montserrat";
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea::-moz-placeholder {
+  color: #C61517;
+  font-family: "Montserrat";
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea::placeholder {
+  color: #C61517;
+  font-family: "Montserrat";
+}
+section .contact_container .contact_field_container form .contact_inputs .input_msg textarea:focus {
+  outline: none;
+}
+@media (min-width: 768px) {
+  section .contact_container .contact_field_container form .contact_inputs .input_msg textarea {
+    height: 203px;
+  }
+}
+section .contact_container .contact_field_container form .contact_btn button {
+  padding: 12px 30px;
+  border-radius: 50px;
+  border: none;
+  font-family: "Montserrat";
+  color: white;
+  background-color: #C61517;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+section .contact_container .contact_field_container form .contact_btn button:hover {
+  background-color: #FF1012;
+}
+
+.address_container {
+  margin: 60px auto auto auto;
+  width: 300px;
+  height: 350px;
+  border-radius: 35px;
+  background-color: #C61517;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.address_container .ad_icon {
+  width: 60px;
+}
+.address_container .ad_icon img {
+  width: 100%;
+}
+.address_container .ad_title p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.address_container .ad_des address {
+  text-align: center;
+  margin: 0 20px;
+  font-size: 15px;
+}/*# sourceMappingURL=contact.css.map */
