@@ -145,7 +145,7 @@ section .hero_container .cont_1 .hero_text a button:hover {
 }
 @media (max-width: 768px) {
   section .hero_container .cont_1 .hero_img {
-    width: 100%;
+    width: 60%;
   }
 }
 section .hero_container .cont_1 .hero_img lottie-player {
@@ -451,9 +451,19 @@ section .place_btn a:hover button {
   font-size: 20px;
   margin: 0;
 }
+@media (max-width: 640px) {
+  #third_section .course_tile .course ._course_title p {
+    font-size: 30px;
+  }
+}
 #third_section .course_tile .course ._course_dur p {
   font-size: 13px;
   color: #191919;
+}
+@media (max-width: 640px) {
+  #third_section .course_tile .course ._course_dur p {
+    font-size: 17px;
+  }
 }
 #third_section .course_tile .course ._course_btn a {
   text-decoration: none;
@@ -492,7 +502,7 @@ section .place_btn a:hover button {
 }
 #third_section .swiper.c-mob-Swiper {
   width: 100%;
-  height: 570px;
+  height: 430px;
 }
 #third_section .c-mob-Swiper {
   display: none;
@@ -508,11 +518,16 @@ section .place_btn a:hover button {
   height: auto;
 }
 #third_section .c-mob-Swiper .course_tile .course {
-  width: 153px;
-  height: 256px;
+  width: 100%;
+  height: 400px;
 }
 #third_section .c-mob-Swiper .course_tile ._course_icon {
   width: 75px;
+}
+@media (max-width: 640px) {
+  #third_section .c-mob-Swiper .course_tile ._course_icon {
+    width: 140px;
+  }
 }
 #third_section .c-mob-Swiper .course_tile ._course_btn a button {
   padding: 12px 18px;
@@ -650,7 +665,7 @@ section .place_btn a:hover button {
   }
 }
 #forth_section .mob_offer_tile .offer {
-  background-color: #C61517;
+  background-color: white;
   width: 260px;
   height: 330px;
   margin: auto;
@@ -659,8 +674,10 @@ section .place_btn a:hover button {
   justify-content: center;
   flex-direction: column;
   border-radius: 35px;
-  color: white;
+  color: #C61517;
   margin-top: 20px;
+  filter: drop-shadow(-7px 9px 10px rgba(0, 0, 0, 0.1882352941));
+  cursor: pointer;
 }
 #forth_section .mob_offer_tile .offer .offer_icon {
   width: 90px;
