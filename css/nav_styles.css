@@ -76,6 +76,7 @@ nav .nav_container .nav_links .all_courses .all_c_rows .all_c_row_1 li, nav .nav
 nav .nav_container .nav_links .all_courses .all_c_rows .all_c_row_1 li a, nav .nav_container .nav_links .all_courses .all_c_rows .all_c_row_2 li a {
   color: #FF1012;
   text-decoration: none;
+  font-weight: 600;
 }
 nav .nav_container .nav_links .all_courses .all_c_rows .all_c_row_1 li a:hover, nav .nav_container .nav_links .all_courses .all_c_rows .all_c_row_2 li a:hover {
   text-decoration: underline;
